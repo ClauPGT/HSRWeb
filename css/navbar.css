@@ -3,14 +3,14 @@
 }
 
 .boton {
-    background-color: #2a2a3b;
-    border: none;
     color: #9f9fa7;
-    padding: 16px 32px;
-    text-align: center;
-    font-size: 16px;
-    margin: 4px 2px;
     transition: 0.3s;
+    margin-right: 5%;
+}
+
+.boton:hover{
+    color: #ffffff;
+    text-decoration: underline;
 }
 
 .imagen-ajustable {
@@ -22,8 +22,4 @@
 
 .iconos {
     color: #576482;
-}
-.boton:hover{
-    color: #ffffff;
-    text-decoration: underline;
 }
