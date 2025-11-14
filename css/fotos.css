@@ -1,0 +1,69 @@
+.imagen-ajustable {
+    height: calc(-56px + 100vh);
+    width: 100%;
+    object-fit: cover;
+    object-position: 32% 50%;
+}
+
+.video-ajustable {
+  /* Ajusta el video para que ocupe toda la pantalla por que ahora aparece una line en blanco por debajo */
+  height: calc(-56px + 100vh);
+  width: 100%;
+  object-fit: cover;
+  object-position: 32% 50%;
+  display: block;
+
+}
+
+.logo-carga {
+  position: absolute;
+  top: 29vh; 
+  left: 55vh;
+  height: auto;
+  width: auto;
+}
+
+.hover1 {
+  position: absolute;
+  top: 140vh; 
+  left: 9vh;
+  width: 10%;
+  height: 15%;
+  opacity: 50%;
+}
+
+.hover2 {
+  position: absolute;
+  top: 121vh; 
+  left: 49vh;
+  width: 10%;
+  height: 15%;
+  opacity: 50%;
+}
+
+.hover3 {
+  position: absolute;
+  top: 161vh; 
+  left: 77vh;
+  width: 10%;
+  height: 15%;
+  opacity: 50%;
+}
+
+.hover4 {
+  position: absolute;
+  top: 127vh; 
+  left: 113vh;
+  width: 10%;
+  height: 15%;
+  opacity: 50%;
+}
+
+.hover5 {
+  position: absolute;
+  top: 142vh; 
+  left: 152vh;
+  width: 10%;
+  height: 15%;
+  opacity: 50%;
+}

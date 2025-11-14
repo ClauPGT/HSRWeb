@@ -1,29 +1,31 @@
 .t-herta {
-    color: #000000;
-    font-family: Garamond, serif;
+    color: #ffffff;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: bold;
 }
 
 .t-jarilo {
-    color: #ffffff;
-    font-family: Garamond, serif;
+    color: #000000;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: bold;
 }
 
 .t-luofu {
     color: #fffdfd;
-    font-family: Garamond, serif;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: bold;
 }
 
 .t-colonipenal {
     color: #ffffff;
-    font-family: Garamond, serif;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: bold;
+    text-align: right !important;
 }
 
 .t-amphoreus {
-    color: #323232;
-    font-family: Garamond, serif;
+    color: #000000;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: bold;
+    text-align: right !important;
 }

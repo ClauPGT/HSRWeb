@@ -1,11 +1,14 @@
 .mi-fondo-navbar {
     background-color: #2a2a3b !important;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: justify;
 }
 
 .boton {
     color: #9f9fa7;
     transition: 0.3s;
     margin-right: 5%;
+    margin-left: 16%;
 }
 
 .boton:hover{
@@ -18,8 +21,4 @@
     width: 100%;
     object-fit: cover;
     object-position: 32% 50%;
-}
-
-.iconos {
-    color: #576482;
 }
