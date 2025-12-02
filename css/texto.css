@@ -29,3 +29,22 @@
     font-weight: bold;
     text-align: right !important;
 }
+
+.t-izquierda {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: left !important;
+    color: #ffffff;
+    margin: 2.5%;
+    
+}
+
+.t-derecha {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: right !important;
+    color: #ffffff;
+    margin: 2.5%;
+}
+
+.titulos {
+    text-decoration: underline;
+}
