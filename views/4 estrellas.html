@@ -1,0 +1,291 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="..\css\navbar.css">
+    <link rel="stylesheet" href="..\css\fotos.css">
+    <link rel="stylesheet" href="..\css\texto.css">
+    <link rel="stylesheet" href="..\css\4estrellas.css">
+    <script src="https://kit.fontawesome.com/382e83d34d.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-sm navbar-dark bg-primary flex-sm-nowrap flex-wrap mi-fondo-navbar">
+        <div class="container-fluid">
+            <button class="navbar-toggler flex-grow-sm-1 flex-grow-0 me-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbar5">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <a class="navbar-brand" href="..\index.html">
+                <img src="..\assets\logo hsr.webp" alt="Logo" width="30" height="30" class="d-inline-block align-text-top rounded-5">
+                Honkai Star Rail
+            </a>
+
+            <div class="navbar-collapse collapse flex-grow-1 justify-content-center" id="navbar5">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item d-flex align-items-center boton">
+                        <a class="nav-link boton" href="..\..\index.html">Inicio</a>
+                    </li>
+
+                    <li class="nav-item d-flex align-items-center boton">
+                        <a class="nav-link boton" href="4 estrellas.html">4 Estrellas</a>
+                    </li>
+
+                    <li class="nav-item d-flex align-items-center boton">
+                        <a class="nav-link boton" href="5 estrellas.html">5 Estrellas</a>
+                    </li>
+
+                    <li class="nav-item d-flex align-items-center boton">
+                        <a class="nav-link boton" href="galeria.html">Galeria</a>
+                    </li>
+
+                    <li class="nav-item d-flex align-items-center boton">
+                        <a class="nav-link boton" href="contacto.html">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="flex-grow-1">
+                <!--spacer-->
+            </div>
+        </div>
+    </nav>
+
+    <div class="container-fluid">
+        <img src="\assets\galaxia morada.jpg" class="imagen-ajustable galaxia">
+        <!-- 12 row -->
+        <div class="row">
+            <div class="col-md-2">
+                <div class="card card-sietemarzo" onclick="abrirPopup('Siete de Marzo', 'assets/4 estrellas/4 estrellas.png', 'assets/hielo.webp', 'Conservación', 'Waifu de pelo rosa', 'assets/4 estrellas/sieteMarzo.webp')">
+                    <img src="..\assets\4 estrellas\sieteMarzo.webp" alt="Siete de Marzo" class="card-img-top">
+                    <div class="card-body ">
+                        <h5 class="card-title cuatro-estrellas">Siete de Marzo</h5>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-2">
+                <div class="card card-danheng">
+                    <img src="..\assets\4 estrellas\danHeng.webp" alt="Dan Heng" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title cuatro-estrellas">Dan Heng</h5>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-2">
+                <div class="card card-arlan">
+                    <img src="..\assets\4 estrellas\arlan.webp" alt="Arlan" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title cuatro-estrellas">Arlan</h5>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-2">
+                <div class="card card-asta">
+                    <img src="..\assets\4 estrellas\asta.webp" alt="Asta" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title cuatro-estrellas">Asta</h5>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-2">
+                <div class="card card-herta">
+                    <img src="..\assets\4 estrellas\herta.webp" alt="Herta" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title cuatro-estrellas">Herta</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 13 row -->
+        <div class="row">
+            <div class="col-md-2">
+                <div class="card card-serval">
+                    <img src="..\assets\4 estrellas\serval.webp" alt="Serval" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title cuatro-estrellas">Serval</h5>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-2">
+                <div class="card card-natasha">
+                    <img src="..\assets\4 estrellas\natasha.webp" alt="Natasha" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title cuatro-estrellas">Natasha</h5>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-2">
+                <div class="card card-pela">
+                    <img src="..\assets\4 estrellas\pela.webp" alt="Pela" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title cuatro-estrellas">Pela</h5>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-2">
+                <div class="card card-sampo">
+                    <img src="..\assets\4 estrellas\sampo.webp" alt="Sampo" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title cuatro-estrellas">Sampo</h5>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-2">
+                <div class="card card-hook">
+                    <img src="..\assets\4 estrellas\hook.webp" alt="Hook" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title cuatro-estrellas">Hook</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 14 row -->
+        <div class="row">
+            <div class="col-md-2">
+                <div class="card card-lynx">
+                    <img src="..\assets\4 estrellas\lynx.webp" alt="Lynx" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title cuatro-estrellas">Lynx</h5>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-2">
+                <div class="card card-luka">
+                    <img src="..\assets\4 estrellas\luka.webp" alt="Luka" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title cuatro-estrellas">Luka</h5>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-2">
+                <div class="card card-qingque">
+                    <img src="..\assets\4 estrellas\qingque.webp" alt="Qingque" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title cuatro-estrellas">Qingque</h5>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-2">
+                <div class="card card-tingyun">
+                    <img src="..\assets\4 estrellas\tingyun.webp" alt="Tingyun" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title cuatro-estrellas">Tingyun</h5>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-2">
+                <div class="card card-sushang">
+                    <img src="..\assets\4 estrellas\sushang.webp" alt="Sushang" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title cuatro-estrellas">Sushang</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 15 row -->
+        <div class="row">
+            <div class="col-md-2">
+                <div class="card card-yukong">
+                    <img src="..\assets\4 estrellas\yukong.webp" alt="Yukong" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title cuatro-estrellas">Yukong</h5>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-2">
+                <div class="card card-guinaifen">
+                    <img src="..\assets\4 estrellas\guinaifen.webp" alt="Guinaifen" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title cuatro-estrellas">Guinaifen</h5>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-2">
+                <div class="card card-xueyi">
+                    <img src="..\assets\4 estrellas\xueyi.webp" alt="Xueyi" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title cuatro-estrellas">Xueyi</h5>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-2">
+                <div class="card card-hanya">
+                    <img src="..\assets\4 estrellas\hanya.webp" alt="Hanya" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title cuatro-estrellas">Hanya</h5>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-2">
+                <div class="card card-moze">
+                    <img src="..\assets\4 estrellas\moze.webp" alt="Moze" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title cuatro-estrellas">Moze</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 16 row -->
+        <div class="row">
+            <div class="col-md-2">
+                <div class="card card-gallagher">
+                    <img src="..\assets\4 estrellas\gallagher.webp" alt="Gallagher" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title cuatro-estrellas">Gallagher</h5>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-2">
+                <div class="card card-misha">
+                    <img src="..\assets\4 estrellas\misha.webp" alt="Misha" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title cuatro-estrellas">Misha</h5>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-2"></div>
+            <div class="col-md-2"></div>
+            <div class="col-md-2"></div>
+        </div>
+    </div>
+
+    <div id="popup" class="modal">
+        <div class="modal-contenido">
+            <span class="cerrar" onclick="cerrarPopup()">✖</span>
+            <h1 id="nombre"></h1>
+            <img id="rareza" src="" alt="Rareza">
+            <img id="elemento" src="" alt="Elemento">
+            <h2 id="via"></h2>
+            <p id="descripcion"></p>
+            <img id="splashart" src="" alt="Splashart">
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <script src="javascript\popUp4estrellas.js"></script>
+  </body>
+</html>

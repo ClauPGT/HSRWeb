@@ -1,0 +1,14 @@
+.formulario {
+  position: absolute;
+  top: 58vh;
+}
+
+.textos {
+  color: white;
+}
+
+.boton-formulario {
+  background-color: #e1b3c7;
+  border-color: #c4819e;
+  color: #71304c
+}

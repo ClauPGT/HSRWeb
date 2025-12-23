@@ -9,6 +9,7 @@
     transition: 0.3s;
     margin-right: 5%;
     margin-left: 16%;
+    white-space: nowrap;
 }
 
 .boton:hover{

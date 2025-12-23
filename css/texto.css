@@ -48,3 +48,23 @@
 .titulos {
     text-decoration: underline;
 }
+
+.cuatro-estrellas {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    background-color: rgb(161, 117, 192);
+    color: white;
+}
+
+.cinco-estrellas {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    background-color: rgb(234, 198, 112);
+    color: white;
+}

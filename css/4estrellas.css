@@ -1,0 +1,137 @@
+.card-misha img {
+  transform: scale(5.15);
+  object-fit: cover;
+  transform-origin: 57% 40%;
+}
+
+.card-gallagher img {
+  transform: scale(4.15);
+  object-fit: cover;
+  transform-origin: 57% 19%;
+}
+
+.card-moze img {
+  transform: scale(8.15);
+  object-fit: cover;
+  transform-origin: 50% 38%;
+}
+
+.card-hanya img {
+  transform: scale(7.15);
+  object-fit: cover;
+  transform-origin: 50% 34%;
+}
+
+.card-xueyi img {
+  transform: scale(7.15);
+  object-fit: cover;
+  transform-origin: 48% 22%;
+}
+
+.card-guinaifen img {
+  transform: scale(6.15);
+  object-fit: cover;
+  transform-origin: 48% 34%;
+}
+
+.card-yukong img {
+  transform: scale(6.15);
+  object-fit: cover;
+  transform-origin: 45% 33%;
+}
+
+.card-sushang img {
+  transform: scale(7.15);
+  object-fit: cover;
+  transform-origin: 50% 36%;
+}
+
+.card-tingyun img {
+  transform: scale(6.15);
+  object-fit: cover;
+  transform-origin: 53% 24%;
+}
+
+.card-qingque img {
+  transform: scale(5.15);
+  object-fit: cover;
+  transform-origin: 48% 34%;
+}
+
+.card-luka img {
+  transform: scale(7.15);
+  object-fit: cover;
+  transform-origin: 43% 24%;
+}
+
+.card-lynx img {
+  transform: scale(5.15);
+  object-fit: cover;
+  transform-origin: 60% 38%;
+}
+
+.card-hook img {
+  transform: scale(6.15);
+  object-fit: cover;
+  transform-origin: 52% 46%;
+}
+
+.card-sampo img {
+  transform: scale(5.15);
+  object-fit: cover;
+  transform-origin: 47% 27%;
+}
+
+.card-pela img {
+  transform: scale(7.15);
+  object-fit: cover;
+  transform-origin: 38% 40%;
+}
+
+.card-natasha img {
+  transform: scale(5.15);
+  object-fit: cover;
+  transform-origin: 52% 20%;
+}
+
+.card-serval img {
+  transform: scale(8.15);
+  object-fit: cover;
+  transform-origin: 53% 41%;
+}
+
+.card-herta img {
+  transform: scale(4.75);
+  object-fit: cover;
+  transform-origin: 49% 20%;
+}
+
+.card-asta img {
+  transform: scale(6.15);
+  object-fit: cover;
+  transform-origin: 47% 35%;
+}
+
+.card-arlan img {
+  transform: scale(6.15);
+  object-fit: cover;
+  transform-origin: 70% 38%;
+}
+
+.card-danheng img {
+  transform: scale(7.15);
+  object-fit: cover;
+  transform-origin: 57% 40%;
+}
+
+.card-sietemarzo img {
+  transform: scale(5.15);
+  object-fit: cover;
+  transform-origin: 48% 33%;
+}
+
+.row{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

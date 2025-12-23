@@ -6,7 +6,9 @@
     <title>Bootstrap demo</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <link rel="stylesheet" href="..\css\navbar.css">
+    <link rel="stylesheet" href="..\css\formulario.css">
     <script src="https://kit.fontawesome.com/382e83d34d.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="..\javascript\comprobacionFormulario.js"></script>
   </head>
   <body>
     <nav class="navbar navbar-expand-sm navbar-dark bg-primary flex-sm-nowrap flex-wrap mi-fondo-navbar">
@@ -27,11 +29,11 @@
                     </li>
 
                     <li class="nav-item d-flex align-items-center boton">
-                        <a class="nav-link boton" href="personajes.html">Personajes</a>
+                        <a class="nav-link boton" href="4 estrellas.html">4 Estrellas</a>
                     </li>
 
                     <li class="nav-item d-flex align-items-center boton">
-                        <a class="nav-link boton" href="equipamiento.html">Equipamiento</a>
+                        <a class="nav-link boton" href="5 estrellas.html">5 Estrellas</a>
                     </li>
 
                     <li class="nav-item d-flex align-items-center boton">
@@ -49,10 +51,65 @@
             </div>
         </div>
     </nav>
+    <img src="..\assets\fondo galaxia.png" class="imagen-ajustable galaxia">
 
-    <div class="container-fluid">
-        <h1>Aquí va el contacto</h1>
+    <div class="container-fluid formulario">
+        <form class="row g-3" id="miform" action="https://postman-echo.com/post" method="post">
+            <div class="col-md-6">
+                <label for="inputNombre" class="form-label textos">Nombre</label>
+                <input type="text" class="form-control" id="inputNombre">
+            </div>
+
+            <div class="col-md-6">
+                <label for="inputApellidos" class="form-label textos">Apellidos</label>
+                <input type="text" class="form-control" id="inputApellidos">
+            </div>
+
+            <div class="col-md-6">
+                <label for="inputEmail" class="form-label textos">Email</label>
+                <input type="email" class="form-control" id="inputEmail">
+            </div>
+
+            <div class="col-md-6">
+                <label for="inputTelefono" class="form-label textos">Teléfono</label>
+                <input type="number" class="form-control" id="inputTelefono" placeholder="123 456 789">
+            </div>
+
+            <div class="col-md-6">
+                <label for="inputDireccion" class="form-label textos">Dirección</label>
+                <input type="text" class="form-control" id="inputDireccion" placeholder="Calle Paquito, nº 123, piso 123ºA">
+            </div>
+
+            <div class="col-md-6">
+                <label for="inputCiudad" class="form-label textos">Ciudad</label>
+                <input type="text" class="form-control" id="inputCiudad" placeholder="Móstoles, Madrid">
+            </div>
+
+            <div class="col-md-4">
+                <label for="inputState" class="form-label textos">Relación con la UFV</label>
+                <select id="inputState" class="form-select">
+                    <option selected="">Estudiante</option>
+                    <option>Profesor</option>
+                    <option>Externo a la universidad</option>
+                </select>
+            </div>
+
+            <div class="col-12">
+                <div class="form-check textos">
+                    <input class="form-check-input" type="checkbox" id="gridCheck">
+                    <label class="form-check-label" for="gridCheck">
+                        ¿Te está gustando mi página web?
+                    </label>
+                </div>
+            </div>
+
+            <div class="col-12">
+                <button type="submit" class="btn btn-primary boton-formulario">Enviar</button>
+            </div>
+        </form>
     </div>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="..\javascript\smoothScroll.js"></script>
   </body>
 </html>
