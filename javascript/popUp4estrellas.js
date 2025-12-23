@@ -1,6 +1,5 @@
-function abrirPopup(nombre, rareza, elemento, via, descripcion, splashArt) {
+function abrirPopup(nombre, elemento, via, descripcion, splashArt) {
   document.getElementById("nombre").textContent = nombre;
-  document.getElementById("rareza").src = rareza;
   document.getElementById("elemento").src = elemento;
   document.getElementById("via").textContent = via;
   document.getElementById("descripcion").textContent = descripcion;
