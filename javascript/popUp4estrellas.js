@@ -1,8 +1,9 @@
-function abrirPopup(nombre, elemento, via, descripcion, splashArt) {
+function abrirPopup(nombre, elemento, via, descripcion1, descripcion2, splashArt) {
   document.getElementById("nombre").textContent = nombre;
   document.getElementById("elemento").src = elemento;
-  document.getElementById("via").textContent = via;
-  document.getElementById("descripcion").textContent = descripcion;
+  document.getElementById("via").src = via;
+  document.getElementById("descripcion1").textContent = descripcion1;
+  document.getElementById("descripcion2").textContent = descripcion2;
   document.getElementById("splashart").src = splashArt;
   document.getElementById("popup").style.display = "block";
 }

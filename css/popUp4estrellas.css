@@ -36,5 +36,33 @@
 .modal-contenido img {
   max-width: 100%;
   height: auto;
-  margin: 10px 0;
+}
+
+.modal-contenido h1 {
+  text-align: center;
+  width: 100%;
+  clear: both;
+  margin-top: 10px;
+}
+
+#elemento, #via, #splashart {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+#elemento, #via {
+    max-width: 100px;
+    width: 80px;
+}
+
+#splashart {
+    width: 500px;
+    height: 500px;
+}
+
+.elementos-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

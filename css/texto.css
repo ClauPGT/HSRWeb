@@ -1,37 +1,31 @@
 .t-herta {
     color: #ffffff;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: bold;
 }
 
 .t-jarilo {
     color: #000000;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: bold;
 }
 
 .t-luofu {
     color: #fffdfd;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: bold;
 }
 
 .t-colonipenal {
     color: #ffffff;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: bold;
     text-align: right !important;
 }
 
 .t-amphoreus {
     color: #000000;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: bold;
     text-align: right !important;
 }
 
 .t-izquierda {
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-align: left !important;
     color: #ffffff;
     margin: 2.5%;
@@ -39,7 +33,6 @@
 }
 
 .t-derecha {
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-align: right !important;
     color: #ffffff;
     margin: 2.5%;
@@ -67,4 +60,17 @@
     text-align: center;
     background-color: rgb(234, 198, 112);
     color: white;
+}
+
+.introduccion {
+    text-align: center;
+    color: white;
+}
+
+.font {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.t-personajes {
+    margin: 2.5%;
 }
