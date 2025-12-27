@@ -1,0 +1,328 @@
+.card-trazacaminos img {
+  transform: scale(5.15);
+  object-fit: cover;
+  transform-origin: 48% 33%;
+}
+
+.card-himeko img {
+  transform: scale(8.15);
+  object-fit: cover;
+  transform-origin: 48% 49%;
+}
+
+.card-welt img {
+  transform: scale(7.15);
+  object-fit: cover;
+  transform-origin: 43% 25%;
+}
+
+.card-kafka img {
+  transform: scale(8.15);
+  object-fit: cover;
+  transform-origin: 48% 31%;
+}
+
+.card-silverwolf img {
+  transform: scale(5.15);
+  object-fit: cover;
+  transform-origin: 58% 33%;
+}
+
+.card-saber img {
+  transform: scale(8.15);
+  object-fit: cover;
+  transform-origin: 48% 27%;
+}
+
+.card-archer img {
+  transform: scale(10.15);
+  object-fit: cover;
+  transform-origin: 54% 35%;
+}
+
+.card-bronya img {
+  transform: scale(9.15);
+  object-fit: cover;
+  transform-origin: 45% 49%;
+}
+
+.card-seele img {
+  transform: scale(9.15);
+  object-fit: cover;
+  transform-origin: 37% 57%;
+}
+
+.card-gepard img {
+  transform: scale(9.15);
+  object-fit: cover;
+  transform-origin: 60% 42%;
+}
+
+.card-clara img {
+  transform: scale(7.15);
+  object-fit: cover;
+  transform-origin: 40% 30%;
+}
+
+.card-topaz img {
+  transform: scale(6);
+  object-fit: cover;
+  transform-origin: 56% 19%;
+}
+
+.card-luocha img {
+  transform: scale(8);
+  object-fit: cover;
+  transform-origin: 51% 27%;
+}
+
+.card-jingyuan img {
+  transform: scale(9.15);
+  object-fit: cover;
+  transform-origin: 50% 38%;
+}
+
+.card-blade img {
+  transform: scale(7.15);
+  object-fit: cover;
+  transform-origin: 50% 9%;
+}
+
+.card-fuxuan img {
+  transform: scale(8.15);
+  object-fit: cover;
+  transform-origin: 46% 30%;
+}
+
+.card-yanqing img {
+  transform: scale(6.15);
+  object-fit: cover;
+  transform-origin: 54% 29%;
+}
+
+.card-bailu img {
+  transform: scale(4.15);
+  object-fit: cover;
+  transform-origin: 58% 33%;
+}
+
+.card-jingliu img {
+  transform: scale(6.15);
+  object-fit: cover;
+  transform-origin: 52% 20%;
+}
+
+.card-danhengIL img {
+  transform: scale(9.15);
+  object-fit: cover;
+  transform-origin: 59% 29%;
+}
+
+.card-huohuo img {
+  transform: scale(6.15);
+  object-fit: cover;
+  transform-origin: 45% 34%;
+}
+
+.card-jiaoqiu img {
+  transform: scale(8.15);
+  object-fit: cover;
+  transform-origin: 46% 29%;
+}
+
+.card-feixiao img {
+  transform: scale(10.15);
+  object-fit: cover;
+  transform-origin: 53% 39%;
+}
+
+.card-yunli img {
+  transform: scale(9.15);
+  object-fit: cover;
+  transform-origin: 51% 41%;
+}
+
+.card-lingsha img {
+  transform: scale(9.15);
+  object-fit: cover;
+  transform-origin: 49% 37%;
+}
+
+.card-fugue img {
+  transform: scale(8.15);
+  object-fit: cover;
+  transform-origin: 34% 46%;
+}
+
+.card-argenti img {
+  transform: scale(9.15);
+  object-fit: cover;
+  transform-origin: 31% 29%;
+}
+
+.card-ruanmei img {
+  transform: scale(6.15);
+  object-fit: cover;
+  transform-origin: 54% 33%;
+}
+
+.card-aventurino img {
+  transform: scale(8.15);
+  object-fit: cover;
+  transform-origin: 58% 33%;
+}
+
+.card-drratio img {
+  transform: scale(9.15);
+  object-fit: cover;
+  transform-origin: 49% 22%;
+}
+
+.card-sparkle img {
+  transform: scale(6.15);
+  object-fit: cover;
+  transform-origin: 51% 33%;
+}
+
+.card-cisnenegro img {
+  transform: scale(8.15);
+  object-fit: cover;
+  transform-origin: 39% 29%;
+}
+
+.card-acheron img {
+  transform: scale(8.15);
+  object-fit: cover;
+  transform-origin: 50% 20%;
+}
+
+.card-robin img {
+  transform: scale(9.15);
+  object-fit: cover;
+  transform-origin: 51% 24%;
+}
+
+.card-luciernaga img {
+  transform: scale(10.15);
+  object-fit: cover;
+  transform-origin: 46% 45%;
+}
+
+.card-sunday img {
+  transform: scale(5.15);
+  object-fit: cover;
+  transform-origin: 48% 33%;
+}
+
+.card-jade img {
+  transform: scale(5.15);
+  object-fit: cover;
+  transform-origin: 48% 33%;
+}
+
+.card-boothill img {
+  transform: scale(5.15);
+  object-fit: cover;
+  transform-origin: 48% 33%;
+}
+
+.card-rappa img {
+  transform: scale(5.15);
+  object-fit: cover;
+  transform-origin: 48% 33%;
+}
+
+.card-ladalia img {
+  transform: scale(5.15);
+  object-fit: cover;
+  transform-origin: 48% 33%;
+}
+
+.card-sraherta img {
+  transform: scale(5.15);
+  object-fit: cover;
+  transform-origin: 48% 33%;
+}
+
+.card-aglaea img {
+  transform: scale(5.15);
+  object-fit: cover;
+  transform-origin: 48% 33%;
+}
+
+.card-tribbie img {
+  transform: scale(5.15);
+  object-fit: cover;
+  transform-origin: 48% 33%;
+}
+
+.card-midei img {
+  transform: scale(5.15);
+  object-fit: cover;
+  transform-origin: 48% 33%;
+}
+
+.card-anaxa img {
+  transform: scale(5.15);
+  object-fit: cover;
+  transform-origin: 48% 33%;
+}
+
+.card-cifer img {
+  transform: scale(5.15);
+  object-fit: cover;
+  transform-origin: 48% 33%;
+}
+
+.card-castorice img {
+  transform: scale(5.15);
+  object-fit: cover;
+  transform-origin: 48% 33%;
+}
+
+.card-fainon img {
+  transform: scale(5.15);
+  object-fit: cover;
+  transform-origin: 48% 33%;
+}
+
+.card-hyacine img {
+  transform: scale(5.15);
+  object-fit: cover;
+  transform-origin: 48% 33%;
+}
+
+.card-hysilens img {
+  transform: scale(5.15);
+  object-fit: cover;
+  transform-origin: 48% 33%;
+}
+
+.card-ceridra img {
+  transform: scale(5.15);
+  object-fit: cover;
+  transform-origin: 48% 33%;
+}
+
+.card-larganoche img {
+  transform: scale(5.15);
+  object-fit: cover;
+  transform-origin: 48% 33%;
+}
+
+.card-danhengPT img {
+  transform: scale(5.15);
+  object-fit: cover;
+  transform-origin: 48% 33%;
+}
+
+.card-cirene img {
+  transform: scale(5.15);
+  object-fit: cover;
+  transform-origin: 48% 33%;
+}
+.row{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
