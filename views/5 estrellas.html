@@ -54,16 +54,99 @@
         </div>
     </nav>
 
+    <div class="container-fluid font background-section2">
+        <h1 class="font introduccion titulos t-personajes">Últimos personajes (versión actual del juego: 3.8)</h1>
+        <div class="row">
+            <div class="col">
+                <div class="row">
+                    <div class="row">
+                        <div class="introduccion font titulos">
+                            <h4 class="t-personajes">La Dalia: visualización de personaje</h4>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-6">
+                            <img class="img-fluid imagenes" src="../assets/visualizacion dalia.webp" alt="Visualización La Dalia">
+                        </div>
+
+                        <div class="col-md-6">
+                            <p class="align-self-center text-start font introduccion">La Dalia, personaje de la via de la Nihilidad, elemento fuego, introducida en la primera mitad de la versión 3.8 del juego.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="row">
+                        <div class="introduccion font titulos">
+                            <h4 class="t-personajes">La Dalia: trailer de personaje</h4>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-6">
+                            <iframe width="100%" height="200" src="https://www.youtube.com/embed/SVeam_lliG0?si=2FVlikHwmfXj2lj5&autoplay=1" title="Trailer La Dalia" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        </div>
+
+                        <div class="col-md-6">
+                            <p class="align-self-center text-start introduccion">Trailer de personaje de La Dalia, publicado el 15 de Diciembre de 2025.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="row">
+                    <div class="row">
+                        <div class="introduccion font titulos">
+                            <h4 class="t-personajes">Cirene: visualización de personaje</h4>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-6">
+                            <img class="img-fluid imagenes" src="../assets/visualizacion cirene.webp" alt="Visualización Cirene">
+                        </div>
+
+                        <div class="col-md-6">
+                            <p class="align-self-center text-start font introduccion">Cirene, personaje de la via de la Reminiscencia, elemento hielo, introducida en la totalidad de la versión 3.7 del juego.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="row">
+                        <div class="introduccion font titulos">
+                            <h4 class="t-personajes">Cirene: trailer de personaje</h4>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-6">
+                            <iframe width="100%" height="200" src="https://www.youtube.com/embed/CRAuK8T6Xis?si=ulT-6kMz-3WY6cJt&autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        </div>
+                        <div class="col-md-6">
+                            <p class="align-self-center text-start font introduccion">Trailer de personaje de Cirene, publicado el 25 de Octubre de 2025.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <div class="container-fluid font">
         <img src="\assets\fondo dorado.jpg" class="imagen-ajustable galaxia">
         <div class="row">
             <h1 class="titulos font introduccion t-personajes">Personajes ★★★★★</h1>
+            <h2 class="introduccion">La única diferencia con los personajes 4 estrellas es que estos cuentan con armamento propio, los llamados conos de luz. El único personaje 5 estrellas que no cuenta con cono de luz propio es el Trazacaminos, o protagonista, el cuál se diferencia por poseer todos las vias y elementos a la vez y ùdiendo cambiarlos según la situación.</h2>
         </div>
+
+
         <!-- 1 row -->
         <div class="row">
             <div class="col-md-2">
-                <div class="card card-trazacaminos" onclick="abrirPopup5('Trazacaminos', '', '', '', '', '', '')">
-                    <img src="" alt="Trazacaminos" class="card-img-top">
+                <div class="card card-trazacaminos" onclick="abrirPopupTrazacaminos('Trazacaminos', ['../assets/fisico.webp', '../assets/fuego.webp', '../assets/imaginario.webp', '../assets/hielo.webp'], ['../assets/destruccion.webp', '../assets/conservacion.webp', '../assets/armonia.webp', '../assets/reminiscencia.webp'], 'Un joven que embarcó en el Expreso Astral. Decidió viajar con el Expreso Astral para eliminar las amenazas provocadas por el Estelaron.', 'Al comenzar el juego, se puede elegir entre Caelus (masculino) o Stelle (femenino), así como el nombre que recibirá. Luego de que lo eliga, se pondra el nombre que usted quiere al trazacaminos.', ['../assets/5 estrellas/trazacaminosStelle.webp', '../assets/5 estrellas/stelleConservacion.webp', '../assets/5 estrellas/stelleArmonia.webp', '../assets/5 estrellas/stelleReminiscencia.webp'], ['../assets/5 estrellas/trazacaminosCaelus.webp', '../assets/5 estrellas/caelusConservacion.webp', '../assets/5 estrellas/caelusArmonia.webp', '../assets/5 estrellas/caelusReminiscencia.webp'])">
+                    <img src="..\assets\5 estrellas\trazacaminosStelle.webp" alt="Trazacaminos" class="card-img-top">
                     <div class="card-body">
                         <h5 class="card-title cinco-estrellas">Trazacaminos</h5>
                     </div>
@@ -583,12 +666,12 @@
 
     <div id="popup" class="modal">
         <div class="modal-contenido">
-            <span class="cerrar" onclick="cerrarPopup()">✖</span>
+            <span class="cerrar" onclick="cerrarPopup('popup')">✖</span>
             <h1 id="nombre"></h1>
 
             <div class="elementos-container">
                 <img id="elemento" src="" alt="Elemento">
-                <img id="via" src="" alt="Via">
+                <img id="via" src="" alt="Vía">
             </div>
 
             <p id="descripcion1"></p>
@@ -600,7 +683,55 @@
             </div>
         </div>
     </div>
+
+    <!-- Pop Up Trazacaminos -->
+    <div id="popup-trazacaminos" class="modal">
+        <div class="modal-contenido">
+            <span class="cerrar" onclick="cerrarPopup('popup-trazacaminos')">✖</span>
+            <h1 id="nombre-trazacaminos"></h1>
+
+            <div class="row g-2 justify-content-center">
+                <div class="col-auto">
+                    <div id="elemento-carousel" class="carousel carousel-popup-small">
+                        <button class="carousel-prev">❮</button>
+                        <img src="" alt="Elemento">
+                        <button class="carousel-next">❯</button>
+                    </div>
+                </div>
+
+                <div class="col-auto">
+                    <div id="via-carousel" class="carousel carousel-popup-small">
+                        <button class="carousel-prev">❮</button>
+                        <img src="" alt="Vía">
+                        <button class="carousel-next">❯</button>
+                    </div>
+                </div>
+            </div>
+
+            <p id="descripcion1-trazacaminos"></p>
+            <p id="descripcion2-trazacaminos"></p>
+            
+            <div class="row g-2">
+                <div class="col-6">
+                    <div id="splashart1-carousel" class="carousel">
+                        <button class="carousel-prev">❮</button>
+                        <img src="" alt="Splashart Stelle">
+                        <button class="carousel-next">❯</button>
+                    </div>
+                </div>
+
+                <div class="col-6">
+                    <div id="splashart2-carousel" class="carousel">
+                        <button class="carousel-prev">❮</button>
+                        <img src="" alt="Splashart Caelus">
+                        <button class="carousel-next">❯</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
     <script src="..\javascript\popUp5estrellas.js"></script>
+    <script src="..\javascript\popUpTrazacaminos.js"></script>
   </body>
 </html>

@@ -1,7 +1,7 @@
 .card-trazacaminos img {
-  transform: scale(5.15);
+  transform: scale(7.15);
   object-fit: cover;
-  transform-origin: 48% 33%;
+  transform-origin: 51% 34%;
 }
 
 .card-himeko img {
@@ -209,120 +209,194 @@
 }
 
 .card-sunday img {
-  transform: scale(5.15);
+  transform: scale(9.15);
   object-fit: cover;
-  transform-origin: 48% 33%;
+  transform-origin: 48% 28%;
 }
 
 .card-jade img {
-  transform: scale(5.15);
+  transform: scale(9.15);
   object-fit: cover;
-  transform-origin: 48% 33%;
+  transform-origin: 51% 26%;
 }
 
 .card-boothill img {
-  transform: scale(5.15);
+  transform: scale(8.15);
   object-fit: cover;
-  transform-origin: 48% 33%;
+  transform-origin: 51% 36%;
 }
 
 .card-rappa img {
-  transform: scale(5.15);
+  transform: scale(6.15);
   object-fit: cover;
-  transform-origin: 48% 33%;
+  transform-origin: 65% 48%;
 }
 
 .card-ladalia img {
-  transform: scale(5.15);
+  transform: scale(9.15);
   object-fit: cover;
-  transform-origin: 48% 33%;
+  transform-origin: 47% 29%;
 }
 
 .card-sraherta img {
-  transform: scale(5.15);
+  transform: scale(9.15);
   object-fit: cover;
-  transform-origin: 48% 33%;
+  transform-origin: 48% 40%;
 }
 
 .card-aglaea img {
-  transform: scale(5.15);
+  transform: scale(10.15);
   object-fit: cover;
-  transform-origin: 48% 33%;
+  transform-origin: 63% 16%;
 }
 
 .card-tribbie img {
-  transform: scale(5.15);
+  transform: scale(8.15);
   object-fit: cover;
-  transform-origin: 48% 33%;
+  transform-origin: 39% 42%;
 }
 
 .card-midei img {
-  transform: scale(5.15);
+  transform: scale(9.15);
   object-fit: cover;
-  transform-origin: 48% 33%;
+  transform-origin: 52% 48%;
 }
 
 .card-anaxa img {
-  transform: scale(5.15);
+  transform: scale(7.15);
   object-fit: cover;
-  transform-origin: 48% 33%;
+  transform-origin: 63% 32%;
 }
 
 .card-cifer img {
-  transform: scale(5.15);
+  transform: scale(7.15);
   object-fit: cover;
-  transform-origin: 48% 33%;
+  transform-origin: 45% 35%;
 }
 
 .card-castorice img {
-  transform: scale(5.15);
+  transform: scale(9.15);
   object-fit: cover;
-  transform-origin: 48% 33%;
+  transform-origin: 45% 34%;
 }
 
 .card-fainon img {
-  transform: scale(5.15);
+  transform: scale(10.15);
   object-fit: cover;
-  transform-origin: 48% 33%;
+  transform-origin: 47% 31%;
 }
 
 .card-hyacine img {
-  transform: scale(5.15);
+  transform: scale(6.15);
   object-fit: cover;
-  transform-origin: 48% 33%;
+  transform-origin: 57% 42%;
 }
 
 .card-hysilens img {
-  transform: scale(5.15);
+  transform: scale(7.15);
   object-fit: cover;
-  transform-origin: 48% 33%;
+  transform-origin: 29% 34%;
 }
 
 .card-ceridra img {
-  transform: scale(5.15);
+  transform: scale(9.15);
   object-fit: cover;
-  transform-origin: 48% 33%;
+  transform-origin: 56% 29%;
 }
 
 .card-larganoche img {
-  transform: scale(5.15);
+  transform: scale(9.15);
   object-fit: cover;
-  transform-origin: 48% 33%;
+  transform-origin: 44% 31%;
 }
 
 .card-danhengPT img {
-  transform: scale(5.15);
+  transform: scale(12.15);
   object-fit: cover;
-  transform-origin: 48% 33%;
+  transform-origin: 48% 35%;
 }
 
 .card-cirene img {
-  transform: scale(5.15);
+  transform: scale(11.15);
   object-fit: cover;
-  transform-origin: 48% 33%;
+  transform-origin: 51% 54%;
 }
+
 .row{
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.carousel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin: 10px auto;
+}
+
+.carousel img {
+  max-width: 120px;
+  width: 100%;
+  height: auto;
+}
+
+.carousel button {
+  background: #333;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 5px;
+  transition: background 0.3s;
+}
+
+.carousel button:hover {
+  background: #555;
+}
+
+.carousel-popup-small img {
+  width: 90px;
+  height: auto;
+}
+
+.carousel-popup-small button {
+  padding: 5px 8px;
+  font-size: 12px;
+}
+
+/* Carrusel grande para splashart */
+#splashart1-carousel img,
+#splashart2-carousel img {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+}
+
+#splashart1-carousel,
+#splashart2-carousel {
+  position: relative;
+  margin: 20px auto;
+}
+
+#splashart1-carousel button,
+#splashart2-carousel button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 10;
+  padding: 15px 20px;
+  font-size: 18px;
+}
+
+#splashart1-carousel .carousel-prev,
+#splashart2-carousel .carousel-prev {
+  left: 10px;
+}
+
+#splashart1-carousel .carousel-next,
+#splashart2-carousel .carousel-next {
+  right: 10px;
 }
