@@ -43,7 +43,7 @@
 }
 
 .background-section1 {
-  background-image: url('../assets/pelea vs basura.jpg');
+  background-image: url('../assets/fondos/pelea vs basura.jpg');
   background-size: cover;
   background-position: center;
   min-height: 100vh;
@@ -82,11 +82,21 @@
 }
 
 .background-section2 {
-  background-image: url('../assets/fondo pompom.png');
+  background-image: url('../assets/fondos/fondo pompom.png');
   background-size: cover;
   background-position: center;
   min-height: 100vh;
   padding: 40px 0;
   position: relative;
   z-index: 1;
+}
+
+.icono {
+  width: 150px;
+  padding: 10px;
+}
+
+.pompom {
+  width: 200px;
+  padding: 10px;
 }

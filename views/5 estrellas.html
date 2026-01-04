@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="..\css\texto.css">
     <link rel="stylesheet" href="..\css\5estrellas.css">
     <link rel="stylesheet" href="..\css\popUp5estrellas.css">
+    <link rel="stylesheet" href="..\css\footer.css">
+    <link rel="icon" href="..\assets\iconos\pompom icon.webp" type="image/webp">
     <script src="https://kit.fontawesome.com/382e83d34d.js" crossorigin="anonymous"></script>
   </head>
   <body>
@@ -20,7 +22,7 @@
             </button>
 
             <a class="navbar-brand" href="..\index.html">
-                <img src="..\assets\logo hsr.webp" alt="Logo" width="30" height="30" class="d-inline-block align-text-top rounded-5">
+                <img src="..\assets\iconos\logo hsr.webp" alt="Logo" width="30" height="30" class="d-inline-block align-text-top rounded-5">
                 Honkai Star Rail
             </a>
 
@@ -67,7 +69,7 @@
 
                     <div class="row">
                         <div class="col-md-6">
-                            <img class="img-fluid imagenes" src="../assets/visualizacion dalia.webp" alt="Visualización La Dalia">
+                            <img class="img-fluid imagenes" src="../assets/5 estrellas/visualizacion dalia.webp" alt="Visualización La Dalia">
                         </div>
 
                         <div class="col-md-6">
@@ -105,7 +107,7 @@
 
                     <div class="row">
                         <div class="col-md-6">
-                            <img class="img-fluid imagenes" src="../assets/visualizacion cirene.webp" alt="Visualización Cirene">
+                            <img class="img-fluid imagenes" src="../assets/5 estrellas/visualizacion cirene.webp" alt="Visualización Cirene">
                         </div>
 
                         <div class="col-md-6">
@@ -135,7 +137,7 @@
     </div>
 
     <div class="container-fluid font">
-        <img src="\assets\fondo dorado.jpg" class="imagen-ajustable galaxia">
+        <img src="\assets\fondos\fondo dorado.jpg" class="imagen-ajustable galaxia">
         <div class="row">
             <h1 class="titulos font introduccion t-personajes">Personajes ★★★★★</h1>
             <h2 class="introduccion">La única diferencia con los personajes 4 estrellas es que estos cuentan con armamento propio, los llamados conos de luz. El único personaje 5 estrellas que no cuenta con cono de luz propio es el Trazacaminos, o protagonista, el cuál se diferencia por poseer todos las vias y elementos a la vez y ùdiendo cambiarlos según la situación.</h2>
@@ -145,7 +147,7 @@
         <!-- 1 row -->
         <div class="row">
             <div class="col-md-2">
-                <div class="card card-trazacaminos" onclick="abrirPopupTrazacaminos('Trazacaminos', ['../assets/fisico.webp', '../assets/fuego.webp', '../assets/imaginario.webp', '../assets/hielo.webp'], ['../assets/destruccion.webp', '../assets/conservacion.webp', '../assets/armonia.webp', '../assets/reminiscencia.webp'], 'Un joven que embarcó en el Expreso Astral. Decidió viajar con el Expreso Astral para eliminar las amenazas provocadas por el Estelaron.', 'Al comenzar el juego, se puede elegir entre Caelus (masculino) o Stelle (femenino), así como el nombre que recibirá. Luego de que lo eliga, se pondra el nombre que usted quiere al trazacaminos.', ['../assets/5 estrellas/trazacaminosStelle.webp', '../assets/5 estrellas/stelleConservacion.webp', '../assets/5 estrellas/stelleArmonia.webp', '../assets/5 estrellas/stelleReminiscencia.webp'], ['../assets/5 estrellas/trazacaminosCaelus.webp', '../assets/5 estrellas/caelusConservacion.webp', '../assets/5 estrellas/caelusArmonia.webp', '../assets/5 estrellas/caelusReminiscencia.webp'])">
+                <div class="card card-trazacaminos" onclick="abrirPopupTrazacaminos('Trazacaminos', ['../assets/viasElementos/fisico.webp', '../assets/viasElementos/fuego.webp', '../assets/viasElementos/imaginario.webp', '../assets/viasElementos/hielo.webp'], ['../assets/viasElementos/destruccion.webp', '../assets/viasElementos/conservacion.webp', '../assets/viasElementos/armonia.webp', '../assets/viasElementos/reminiscencia.webp'], 'Un joven que embarcó en el Expreso Astral. Decidió viajar con el Expreso Astral para eliminar las amenazas provocadas por el Estelaron.', 'Al comenzar el juego, se puede elegir entre Caelus (masculino) o Stelle (femenino), así como el nombre que recibirá. Luego de que lo eliga, se pondra el nombre que usted quiere al trazacaminos.', ['../assets/5 estrellas/trazacaminosStelle.webp', '../assets/5 estrellas/stelleConservacion.webp', '../assets/5 estrellas/stelleArmonia.webp', '../assets/5 estrellas/stelleReminiscencia.webp'], ['../assets/5 estrellas/trazacaminosCaelus.webp', '../assets/5 estrellas/caelusConservacion.webp', '../assets/5 estrellas/caelusArmonia.webp', '../assets/5 estrellas/caelusReminiscencia.webp'])">
                     <img src="..\assets\5 estrellas\trazacaminosStelle.webp" alt="Trazacaminos" class="card-img-top">
                     <div class="card-body">
                         <h5 class="card-title cinco-estrellas">Trazacaminos</h5>
@@ -154,7 +156,7 @@
             </div>
 
             <div class="col-md-2">
-                <div class="card card-himeko" onclick="abrirPopup5('Himeko', '../assets/fuego.webp', '../assets/erudicion.webp', 'Una científica aventurera que encontró el Expreso Astral varado en su planeta cuando era niña.', 'Varios años después, cuando Himeko al fin logró reparar el Expreso Astral y comenzó su viaje por el espacio, se dio cuenta de que ese no era más que el comienzo. En su nueva trayectoria como trazacaminos, iba a necesitar muchos compañeros... Y aunque todos tengan destinos diferentes, todos observan el mismo cielo estrellado.', '../assets/5 estrellas/himeko.webp', '../assets/5 estrellas/conos/cono himeko.webp')">
+                <div class="card card-himeko" onclick="abrirPopup5('Himeko', '../assets/viasElementos/fuego.webp', '../assets/viasElementos/erudicion.webp', 'Una científica aventurera que encontró el Expreso Astral varado en su planeta cuando era niña.', 'Varios años después, cuando Himeko al fin logró reparar el Expreso Astral y comenzó su viaje por el espacio, se dio cuenta de que ese no era más que el comienzo. En su nueva trayectoria como trazacaminos, iba a necesitar muchos compañeros... Y aunque todos tengan destinos diferentes, todos observan el mismo cielo estrellado.', '../assets/5 estrellas/himeko.webp', '../assets/5 estrellas/conos/cono himeko.webp')">
                     <img src="../assets/5 estrellas/himeko.webp" alt="Himeko" class="card-img-top">
                     <div class="card-body">
                         <h5 class="card-title cinco-estrellas">Himeko</h5>
@@ -163,7 +165,7 @@
             </div>
 
             <div class="col-md-2">
-                <div class="card card-welt" onclick="abrirPopup5('Welt', '../assets/imaginario.webp', '../assets/nihilidad.webp', 'Welt, el antiguo Soberano Antientropía, sabio y experimentado, heredó el nombre del mundo y lo salvó muchas veces de la aniquilación.', 'Cuando finalizó el incidente de St. Fontaine, Welt no tuvo más remedio que cruzar el portal con quien provocó ese incidente. Probablemente, ni él mismo sabía que lo que le esperaba al otro lado era un nuevo viaje y nuevos compañeros.', '../assets/5 estrellas/welt.webp', '../assets/5 estrellas/conos/cono welt.webp')">
+                <div class="card card-welt" onclick="abrirPopup5('Welt', '../assets/viasElementos/imaginario.webp', '../assets/viasElementos/nihilidad.webp', 'Welt, el antiguo Soberano Antientropía, sabio y experimentado, heredó el nombre del mundo y lo salvó muchas veces de la aniquilación.', 'Cuando finalizó el incidente de St. Fontaine, Welt no tuvo más remedio que cruzar el portal con quien provocó ese incidente. Probablemente, ni él mismo sabía que lo que le esperaba al otro lado era un nuevo viaje y nuevos compañeros.', '../assets/5 estrellas/welt.webp', '../assets/5 estrellas/conos/cono welt.webp')">
                     <img src="../assets/5 estrellas/welt.webp" alt="Welt" class="card-img-top">
                     <div class="card-body">
                         <h5 class="card-title cinco-estrellas">Welt</h5>
@@ -172,7 +174,7 @@
             </div>
 
             <div class="col-md-2">
-                <div class="card card-kafka" onclick="abrirPopup5('Kafka', '../assets/rayo.webp', '../assets/nihilidad.webp', 'Kafka aparece en la lista de más buscados de la Corporación para la Paz Interastral, pero su entrada solo contiene dos datos: su nombre y la frase, le gusta coleccionar abrigos.', 'Apenas se sabe nada sobre esta Cazadora de Estelaron, aparte de que es una de las colaboradoras más cercanas de Elio, el Esclavo del Destino. Para alcanzar el futuro previsto por Elio, Kafka se pone en marcha.', '../assets/5 estrellas/kafka.webp', '../assets/5 estrellas/conos/cono kafka.webp')">
+                <div class="card card-kafka" onclick="abrirPopup5('Kafka', '../assets/viasElementos/rayo.webp', '../assets/viasElementos/nihilidad.webp', 'Kafka aparece en la lista de más buscados de la Corporación para la Paz Interastral, pero su entrada solo contiene dos datos: su nombre y la frase, le gusta coleccionar abrigos.', 'Apenas se sabe nada sobre esta Cazadora de Estelaron, aparte de que es una de las colaboradoras más cercanas de Elio, el Esclavo del Destino. Para alcanzar el futuro previsto por Elio, Kafka se pone en marcha.', '../assets/5 estrellas/kafka.webp', '../assets/5 estrellas/conos/cono kafka.webp')">
                     <img src="../assets/5 estrellas/kafka.webp" alt="Kafka" class="card-img-top">
                     <div class="card-body">
                         <h5 class="card-title cinco-estrellas">Kafka</h5>
@@ -181,7 +183,7 @@
             </div>
 
             <div class="col-md-2">
-                <div class="card card-silverwolf" onclick="abrirPopup5('Silver Wolf', '../assets/cuantico.webp', '../assets/nihilidad.webp', 'El universo no es más que otro juego para esta superhacker. Por muy espinoso que sea el sistema de defensa, Silver Wolf puede descifrarlo con facilidad.', 'Su batalla informática contra Tornillum, del Círculo de Genios, se ha convertido en una leyenda en la comunidad hacker. ¿Cuántos niveles más hay que superar en este universo? Silver Wolf está deseando averiguarlo.', '../assets/5 estrellas/silver wolf.webp', '../assets/5 estrellas/conos/cono silver wolf.webp')">
+                <div class="card card-silverwolf" onclick="abrirPopup5('Silver Wolf', '../assets/viasElementos/cuantico.webp', '../assets/viasElementos/nihilidad.webp', 'El universo no es más que otro juego para esta superhacker. Por muy espinoso que sea el sistema de defensa, Silver Wolf puede descifrarlo con facilidad.', 'Su batalla informática contra Tornillum, del Círculo de Genios, se ha convertido en una leyenda en la comunidad hacker. ¿Cuántos niveles más hay que superar en este universo? Silver Wolf está deseando averiguarlo.', '../assets/5 estrellas/silver wolf.webp', '../assets/5 estrellas/conos/cono silver wolf.webp')">
                     <img src="../assets/5 estrellas/silver wolf.webp" alt="Silver Wolf" class="card-img-top">
                     <div class="card-body">
                         <h5 class="card-title cinco-estrellas">Silver Wolf</h5>
@@ -193,7 +195,7 @@
         <!-- 2 row -->
         <div class="row">
             <div class="col-md-2">
-                <div class="card card-saber" onclick="abrirPopup5('Saber', '../assets/viento.webp', '../assets/destruccion.webp', 'El solitario Espíritu Heroico camina por la larga noche del destino, mientras la bandera de la mesa redonda permanece extendida en los sueños. El rey de los caballeros de Camelot aún no ha llegado a esa utopía.', 'Aunque es muy joven, respondió al llamado de esta particular Guerra del Santo Grial. Cuando se enfrente nuevamente a la decisión de la espada en la piedra, ¿cómo acabará con los fantasmas del pasado? Mis deseos sin cumplir también acabarán aquí.', '../assets/5 estrellas/saber.webp', '../assets/5 estrellas/conos/cono saber.webp')">
+                <div class="card card-saber" onclick="abrirPopup5('Saber', '../assets/viasElementos/viento.webp', '../assets/viasElementos/destruccion.webp', 'El solitario Espíritu Heroico camina por la larga noche del destino, mientras la bandera de la mesa redonda permanece extendida en los sueños. El rey de los caballeros de Camelot aún no ha llegado a esa utopía.', 'Aunque es muy joven, respondió al llamado de esta particular Guerra del Santo Grial. Cuando se enfrente nuevamente a la decisión de la espada en la piedra, ¿cómo acabará con los fantasmas del pasado? Mis deseos sin cumplir también acabarán aquí.', '../assets/5 estrellas/saber.webp', '../assets/5 estrellas/conos/cono saber.webp')">
                     <img src="../assets/5 estrellas/saber.webp" alt="Saber" class="card-img-top">
                     <div class="card-body">
                         <h5 class="card-title cinco-estrellas">Saber</h5>
@@ -202,7 +204,7 @@
             </div>
 
             <div class="col-md-2">
-                <div class="card card-archer" onclick="abrirPopup5('Archer', '../assets/cuantico.webp', '../assets/caceria.webp', 'La desesperación se repite una y otra vez entre el pasado y el futuro, e innumerables ideales se han consumido dentro de esa vestimenta roja. Pero no te dejes engañar por estas cenizas...', 'Si alguien usa los ideales como pretexto para crear sueños ilusorios, él volverá a arder y luchará contra la hipocresía del mundo hasta el final. No importa dónde esté, siempre será un héroe de la justicia.', '../assets/5 estrellas/archer.webp', '../assets/5 estrellas/conos/cono archer.webp')">
+                <div class="card card-archer" onclick="abrirPopup5('Archer', '../assets/viasElementos/cuantico.webp', '../assets/viasElementos/caceria.webp', 'La desesperación se repite una y otra vez entre el pasado y el futuro, e innumerables ideales se han consumido dentro de esa vestimenta roja. Pero no te dejes engañar por estas cenizas...', 'Si alguien usa los ideales como pretexto para crear sueños ilusorios, él volverá a arder y luchará contra la hipocresía del mundo hasta el final. No importa dónde esté, siempre será un héroe de la justicia.', '../assets/5 estrellas/archer.webp', '../assets/5 estrellas/conos/cono archer.webp')">
                     <img src="../assets/5 estrellas/archer.webp" alt="Archer" class="card-img-top">
                     <div class="card-body">
                         <h5 class="card-title cinco-estrellas">Archer</h5>
@@ -211,7 +213,7 @@
             </div>
 
             <div class="col-md-2">
-                <div class="card card-bronya" onclick="abrirPopup5('Bronya', '../assets/viento.webp', '../assets/armonia.webp', 'La heredera de la Guardiana Suprema de Belobog. También es la joven pero competente comandante de la Guardia Crinargenta. Desde pequeña, Bronya recibió una educación muy estricta y posee la conducta y la afinidad que se esperan de una heredera.', 'Pero, tras presenciar la situación lamentable del Bajomundo, la semilla de la duda comenzó a brotar en la mente de la futura gobernante de Belobog. ¿La formación que recibí realmente puede ayudar a la gente a conseguir la vida que quiere?.', '../assets/5 estrellas/bronya.webp', '../assets/5 estrellas/conos/cono bronya.webp')">
+                <div class="card card-bronya" onclick="abrirPopup5('Bronya', '../assets/viasElementos/viento.webp', '../assets/viasElementos/armonia.webp', 'La heredera de la Guardiana Suprema de Belobog. También es la joven pero competente comandante de la Guardia Crinargenta. Desde pequeña, Bronya recibió una educación muy estricta y posee la conducta y la afinidad que se esperan de una heredera.', 'Pero, tras presenciar la situación lamentable del Bajomundo, la semilla de la duda comenzó a brotar en la mente de la futura gobernante de Belobog. ¿La formación que recibí realmente puede ayudar a la gente a conseguir la vida que quiere?.', '../assets/5 estrellas/bronya.webp', '../assets/5 estrellas/conos/cono bronya.webp')">
                     <img src="../assets/5 estrellas/bronya.webp" alt="Bronya" class="card-img-top">
                     <div class="card-body">
                         <h5 class="card-title cinco-estrellas">Bronya</h5>
@@ -220,7 +222,7 @@
             </div>
 
             <div class="col-md-2">
-                <div class="card card-seele" onclick="abrirPopup5('Seele', '../assets/cuantico.webp', '../assets/caceria.webp', 'Una valiente miembro de Llamarada que creció en el entorno hostil del Bajomundo de Belobog. Está acostumbrada a estar sola.', 'Los protectores y los protegidos, los opresores y los oprimidos... El mundo en el que Seele creció era una dicotomía muy sencilla... Hasta que apareció esa chica.', '../assets/5 estrellas/seele.webp', '../assets/5 estrellas/conos/cono seele.webp')">
+                <div class="card card-seele" onclick="abrirPopup5('Seele', '../assets/viasElementos/cuantico.webp', '../assets/viasElementos/caceria.webp', 'Una valiente miembro de Llamarada que creció en el entorno hostil del Bajomundo de Belobog. Está acostumbrada a estar sola.', 'Los protectores y los protegidos, los opresores y los oprimidos... El mundo en el que Seele creció era una dicotomía muy sencilla... Hasta que apareció esa chica.', '../assets/5 estrellas/seele.webp', '../assets/5 estrellas/conos/cono seele.webp')">
                     <img src="../assets/5 estrellas/seele.webp" alt="Seele" class="card-img-top">
                     <div class="card-body">
                         <h5 class="card-title cinco-estrellas">Seele</h5>
@@ -229,7 +231,7 @@
             </div>
 
             <div class="col-md-2">
-                <div class="card card-gepard" onclick="abrirPopup5('Gepard', '../assets/hielo.webp', '../assets/conservacion.webp', 'El honorable y honrado capitán de la Guardia Crinargenta, descendiente de la aristocrática familia Landau.', 'En Belobog, la ciudad azotada por el frío, la vida puede continuar con normalidad... Y en gran parte es gracias a que Gepard y sus Guardias Crinargenta garantizan la paz.', '../assets/5 estrellas/gepard.webp', '../assets/5 estrellas/conos/cono gepard.webp')">
+                <div class="card card-gepard" onclick="abrirPopup5('Gepard', '../assets/viasElementos/hielo.webp', '../assets/viasElementos/conservacion.webp', 'El honorable y honrado capitán de la Guardia Crinargenta, descendiente de la aristocrática familia Landau.', 'En Belobog, la ciudad azotada por el frío, la vida puede continuar con normalidad... Y en gran parte es gracias a que Gepard y sus Guardias Crinargenta garantizan la paz.', '../assets/5 estrellas/gepard.webp', '../assets/5 estrellas/conos/cono gepard.webp')">
                     <img src="../assets/5 estrellas/gepard.webp" alt="Gepard" class="card-img-top">
                     <div class="card-body">
                         <h5 class="card-title cinco-estrellas">Gepard</h5>
@@ -241,7 +243,7 @@
         <!-- 3 row -->
         <div class="row">
             <div class="col-md-2">
-                <div class="card card-clara" onclick="abrirPopup5('Clara', '../assets/fisico.webp', '../assets/destruccion.webp', 'Una niña criada por un robot. Su sensibilidad y su tenacidad son mayores de lo que cabría esperar por su edad. Para Clara, los cálculos lógicos de Svarog son infalibles.', 'Hasta que se dio cuenta de que los resultados obtenidos tras esos cálculos no tienen por qué hacer feliz a la gente. En ese momento, la niña tímida decidió armarse de valor.', '../assets/5 estrellas/clara.webp', '../assets/5 estrellas/conos/cono clara.webp')">
+                <div class="card card-clara" onclick="abrirPopup5('Clara', '../assets/viasElementos/fisico.webp', '../assets/viasElementos/destruccion.webp', 'Una niña criada por un robot. Su sensibilidad y su tenacidad son mayores de lo que cabría esperar por su edad. Para Clara, los cálculos lógicos de Svarog son infalibles.', 'Hasta que se dio cuenta de que los resultados obtenidos tras esos cálculos no tienen por qué hacer feliz a la gente. En ese momento, la niña tímida decidió armarse de valor.', '../assets/5 estrellas/clara.webp', '../assets/5 estrellas/conos/cono clara.webp')">
                     <img src="../assets/5 estrellas/clara.webp" alt="Clara" class="card-img-top">
                     <div class="card-body">
                         <h5 class="card-title cinco-estrellas">Clara</h5>
@@ -250,7 +252,7 @@
             </div>
 
             <div class="col-md-2">
-                <div class="card card-topaz" onclick="abrirPopup5('Topaz y Conti', '../assets/fuego.webp', '../assets/caceria.webp', 'Es miembro de los Diez Corazones de Piedra desde muy joven y su especialidad es la recaudación de deudas.', 'Su compañero, un Chanchito Dimensional llamado Conti, es capaz de percibir con agudeza dónde hay riquezas, con lo que los trabajos relacionados con seguridad, cobro de deudas y procesos actuariales no suponen ningún problema. Actualmente, viajan juntos por el cosmos investigando diversas deudas y obligaciones que pueden afectar negativamente al desarrollo de los negocios de la Corporación.', '../assets/5 estrellas/topaz.webp', '../assets/5 estrellas/conos/cono topaz.webp')">
+                <div class="card card-topaz" onclick="abrirPopup5('Topaz y Conti', '../assets/viasElementos/fuego.webp', '../assets/viasElementos/caceria.webp', 'Es miembro de los Diez Corazones de Piedra desde muy joven y su especialidad es la recaudación de deudas.', 'Su compañero, un Chanchito Dimensional llamado Conti, es capaz de percibir con agudeza dónde hay riquezas, con lo que los trabajos relacionados con seguridad, cobro de deudas y procesos actuariales no suponen ningún problema. Actualmente, viajan juntos por el cosmos investigando diversas deudas y obligaciones que pueden afectar negativamente al desarrollo de los negocios de la Corporación.', '../assets/5 estrellas/topaz.webp', '../assets/5 estrellas/conos/cono topaz.webp')">
                     <img src="../assets/5 estrellas/topaz.webp" alt="Topaz y Conti" class="card-img-top">
                     <div class="card-body">
                         <h5 class="card-title cinco-estrellas">Topaz y Conti</h5>
@@ -259,7 +261,7 @@
             </div>
 
             <div class="col-md-2">
-                <div class="card card-luocha" onclick="abrirPopup5('Luocha', '../assets/imaginario.webp', '../assets/abundancia.webp', 'Un apuesto joven rubio que lleva un ataúd gigante a la espalda.', 'Como comerciante intergaláctico, desgraciadamente se vio atrapado en la crisis del Estelaron en el Luofu de Xianzhou. Y así fue como descubrió que su dominio de la medicina le resultaba útil.', '../assets/5 estrellas/luocha.webp', '../assets/5 estrellas/conos/cono luocha.webp')">
+                <div class="card card-luocha" onclick="abrirPopup5('Luocha', '../assets/viasElementos/imaginario.webp', '../assets/viasElementos/abundancia.webp', 'Un apuesto joven rubio que lleva un ataúd gigante a la espalda.', 'Como comerciante intergaláctico, desgraciadamente se vio atrapado en la crisis del Estelaron en el Luofu de Xianzhou. Y así fue como descubrió que su dominio de la medicina le resultaba útil.', '../assets/5 estrellas/luocha.webp', '../assets/5 estrellas/conos/cono luocha.webp')">
                     <img src="../assets/5 estrellas/luocha.webp" alt="Luocha" class="card-img-top">
                     <div class="card-body">
                         <h5 class="card-title cinco-estrellas">Luocha</h5>
@@ -268,7 +270,7 @@
             </div>
 
             <div class="col-md-2">
-                <div class="card card-jingyuan" onclick="abrirPopup5('Jing Yuan', '../assets/rayo.webp', '../assets/erudicion.webp', 'La Premonición Divina, uno de los siete generales celestiales del Señor Arquero. Aunque tenga pinta de perezoso, es más meticuloso de lo que parece. No considera que salvar una situación al borde del desastre sea una muestra de sabiduría, por lo que es muy escrupuloso con los asuntos rutinarios para evitar cualquier problema potencial.', 'Gracias a su cuidadosa gestión, Xianzhou ha disfrutado de muchos años de paz, y la apariencia aparentemente perezosa de Jing Yuan le ha hecho ganarse el apodo de General Somnoliento.', '../assets/5 estrellas/jing yuan.webp', '../assets/5 estrellas/conos/cono jing yuan.webp')">
+                <div class="card card-jingyuan" onclick="abrirPopup5('Jing Yuan', '../assets/viasElementos/rayo.webp', '../assets/viasElementos/erudicion.webp', 'La Premonición Divina, uno de los siete generales celestiales del Señor Arquero. Aunque tenga pinta de perezoso, es más meticuloso de lo que parece. No considera que salvar una situación al borde del desastre sea una muestra de sabiduría, por lo que es muy escrupuloso con los asuntos rutinarios para evitar cualquier problema potencial.', 'Gracias a su cuidadosa gestión, Xianzhou ha disfrutado de muchos años de paz, y la apariencia aparentemente perezosa de Jing Yuan le ha hecho ganarse el apodo de General Somnoliento.', '../assets/5 estrellas/jing yuan.webp', '../assets/5 estrellas/conos/cono jing yuan.webp')">
                     <img src="../assets/5 estrellas/jing yuan.webp" alt="Jing Yuan" class="card-img-top">
                     <div class="card-body">
                         <h5 class="card-title cinco-estrellas">Jing Yuan</h5>
@@ -277,7 +279,7 @@
             </div>
 
             <div class="col-md-2">
-                <div class="card card-blade" onclick="abrirPopup5('Blade', '../assets/viento.webp', '../assets/destruccion.webp', 'Un espadachín que abandonó su cuerpo para convertirse en una espada. Se desconoce su nombre de nacimiento.', 'Juró lealtad al Esclavo del Destino y posee una terrorífica habilidad de autocuración. Blade empuña una espada antigua llena de grietas, al igual que su cuerpo y su mente.', '../assets/5 estrellas/blade.webp', '../assets/5 estrellas/conos/cono blade.webp')">
+                <div class="card card-blade" onclick="abrirPopup5('Blade', '../assets/viasElementos/viento.webp', '../assets/viasElementos/destruccion.webp', 'Un espadachín que abandonó su cuerpo para convertirse en una espada. Se desconoce su nombre de nacimiento.', 'Juró lealtad al Esclavo del Destino y posee una terrorífica habilidad de autocuración. Blade empuña una espada antigua llena de grietas, al igual que su cuerpo y su mente.', '../assets/5 estrellas/blade.webp', '../assets/5 estrellas/conos/cono blade.webp')">
                     <img src="../assets/5 estrellas/blade.webp" alt="Blade" class="card-img-top">
                     <div class="card-body">
                         <h5 class="card-title cinco-estrellas">Blade</h5>
@@ -289,7 +291,7 @@
         <!-- 4 row -->
         <div class="row">
             <div class="col-md-2">
-                <div class="card card-fuxuan" onclick="abrirPopup5('Fu Xuan', '../assets/cuantico.webp', '../assets/conservacion.webp', 'La Gran Adivina de la Comisión de Adivinación del Luofu de Xianzhou. Una sabia que rebosa confianza y franqueza.', 'Es quien utiliza el tercer ojo y la Matriz del Presagio para predecir la ruta de Xianzhou y los resultados de los acontecimientos. Cree tajantemente que todo lo que hace es la mejor solución ante cualquier problema. Fu Xuan no pierde la esperanza de que el general cumpla su promesa de abdicar. Sin embargo, ese día parece cada vez más lejano.', '../assets/5 estrellas/fu xuan.webp', '../assets/5 estrellas/conos/cono fu xuan.webp')">
+                <div class="card card-fuxuan" onclick="abrirPopup5('Fu Xuan', '../assets/viasElementos/cuantico.webp', '../assets/viasElementos/conservacion.webp', 'La Gran Adivina de la Comisión de Adivinación del Luofu de Xianzhou. Una sabia que rebosa confianza y franqueza.', 'Es quien utiliza el tercer ojo y la Matriz del Presagio para predecir la ruta de Xianzhou y los resultados de los acontecimientos. Cree tajantemente que todo lo que hace es la mejor solución ante cualquier problema. Fu Xuan no pierde la esperanza de que el general cumpla su promesa de abdicar. Sin embargo, ese día parece cada vez más lejano.', '../assets/5 estrellas/fu xuan.webp', '../assets/5 estrellas/conos/cono fu xuan.webp')">
                     <img src="../assets/5 estrellas/fu xuan.webp" alt="Fu Xuan" class="card-img-top">
                     <div class="card-body">
                         <h5 class="card-title cinco-estrellas">Fu Xuan</h5>
@@ -298,7 +300,7 @@
             </div>
 
             <div class="col-md-2">
-                <div class="card card-yanqing" onclick="abrirPopup5('Yanqing', '../assets/hielo.webp', '../assets/caceria.webp', 'Un teniente de los Nimbocaballeros muy animoso, y también el espadachín más hábil del Luofu de Xianzhou.', 'Ha nacido para las espadas y está obsesionado con ellas. Siempre que una espada descansa en su mano, nadie se atreve a subestimar a este talento, aunque aún sea un niño. Quizá lo único capaz de opacar el filo de su preciada espada sea el tiempo.', '../assets/5 estrellas/yanqing.webp', '../assets/5 estrellas/conos/cono yanqing.webp')">
+                <div class="card card-yanqing" onclick="abrirPopup5('Yanqing', '../assets/viasElementos/hielo.webp', '../assets/viasElementos/caceria.webp', 'Un teniente de los Nimbocaballeros muy animoso, y también el espadachín más hábil del Luofu de Xianzhou.', 'Ha nacido para las espadas y está obsesionado con ellas. Siempre que una espada descansa en su mano, nadie se atreve a subestimar a este talento, aunque aún sea un niño. Quizá lo único capaz de opacar el filo de su preciada espada sea el tiempo.', '../assets/5 estrellas/yanqing.webp', '../assets/5 estrellas/conos/cono yanqing.webp')">
                     <img src="../assets/5 estrellas/yanqing.webp" alt="Yanqing" class="card-img-top">
                     <div class="card-body">
                         <h5 class="card-title cinco-estrellas">Yanqing</h5>
@@ -307,7 +309,7 @@
             </div>
 
             <div class="col-md-2">
-                <div class="card card-bailu" onclick="abrirPopup5('Bailu', '../assets/rayo.webp', '../assets/abundancia.webp', 'Una joven vivaz de la raza vidyadhara. Es conocida como la Dama Sanadora debido a sus vastos conocimientos de medicina. Suele recetar medidas poco ortodoxas como mantente bien hidratado y descansa mejor por la noche.', 'Bailu no soporta ver sufrir a la gente, y por eso mantiene los ojos cerrados mientras cura dolencias. Lo único que importa es que se curen, ¿no?.', '../assets/5 estrellas/bailu.webp', '../assets/5 estrellas/conos/cono bailu.webp')">
+                <div class="card card-bailu" onclick="abrirPopup5('Bailu', '../assets/viasElementos/rayo.webp', '../assets/viasElementos/abundancia.webp', 'Una joven vivaz de la raza vidyadhara. Es conocida como la Dama Sanadora debido a sus vastos conocimientos de medicina. Suele recetar medidas poco ortodoxas como mantente bien hidratado y descansa mejor por la noche.', 'Bailu no soporta ver sufrir a la gente, y por eso mantiene los ojos cerrados mientras cura dolencias. Lo único que importa es que se curen, ¿no?.', '../assets/5 estrellas/bailu.webp', '../assets/5 estrellas/conos/cono bailu.webp')">
                     <img src="../assets/5 estrellas/bailu.webp" alt="Bailu" class="card-img-top">
                     <div class="card-body">
                         <h5 class="card-title cinco-estrellas">Bailu</h5>
@@ -316,7 +318,7 @@
             </div>
 
             <div class="col-md-2">
-                <div class="card card-jingliu" onclick="abrirPopup5('Jingliu', '../assets/hielo.webp', '../assets/destruccion.webp', 'Antigua maestra de espadas del Luofu y responsable de la reputación de invencibilidad de los Nimbocaballeros.', 'En la actualidad, su nombre se ha borrado de todos los registros y se ha convertido en una traidora a Xianzhou que camina por la delgada línea que hay entre la cordura y la posesión por Mara.', '../assets/5 estrellas/jingliu.webp', '../assets/5 estrellas/conos/cono jingliu.webp')">
+                <div class="card card-jingliu" onclick="abrirPopup5('Jingliu', '../assets/viasElementos/hielo.webp', '../assets/viasElementos/destruccion.webp', 'Antigua maestra de espadas del Luofu y responsable de la reputación de invencibilidad de los Nimbocaballeros.', 'En la actualidad, su nombre se ha borrado de todos los registros y se ha convertido en una traidora a Xianzhou que camina por la delgada línea que hay entre la cordura y la posesión por Mara.', '../assets/5 estrellas/jingliu.webp', '../assets/5 estrellas/conos/cono jingliu.webp')">
                     <img src="../assets/5 estrellas/jingliu.webp" alt="Jingliu" class="card-img-top">
                     <div class="card-body">
                         <h5 class="card-title cinco-estrellas">Jingliu</h5>
@@ -325,7 +327,7 @@
             </div>
 
             <div class="col-md-2">
-                <div class="card card-danhengIL" onclick="abrirPopup5('Dan Heng - Imbibitor Lunae', '../assets/imaginario.webp', '../assets/destruccion.webp', 'Dan Heng aceptó el poder de su vida anterior como Imbibitor Lunae y reveló la verdadera naturaleza de los vidyadhara.', 'Al aceptar la majestuosa corona de astas, también tuvo que adoptar todos los méritos y las faltas atribuidos a ese pecador. Pero en ningún momento era él.', '../assets/5 estrellas/dan heng IL.webp', '../assets/5 estrellas/conos/cono dan heng IL.webp')">
+                <div class="card card-danhengIL" onclick="abrirPopup5('Dan Heng - Imbibitor Lunae', '../assets/viasElementos/imaginario.webp', '../assets/viasElementos/destruccion.webp', 'Dan Heng aceptó el poder de su vida anterior como Imbibitor Lunae y reveló la verdadera naturaleza de los vidyadhara.', 'Al aceptar la majestuosa corona de astas, también tuvo que adoptar todos los méritos y las faltas atribuidos a ese pecador. Pero en ningún momento era él.', '../assets/5 estrellas/dan heng IL.webp', '../assets/5 estrellas/conos/cono dan heng IL.webp')">
                     <img src="../assets/5 estrellas/dan heng IL.webp" alt="Dan Heng - IL" class="card-img-top">
                     <div class="card-body">
                         <h5 class="card-title cinco-estrellas">Dan Heng - Imbibitor Lunae</h5>
@@ -337,7 +339,7 @@
         <!-- 5 row -->
         <div class="row">
             <div class="col-md-2">
-                <div class="card card-huohuo" onclick="abrirPopup5('Huohuo', '../assets/viento.webp', '../assets/abundancia.webp', 'Una muchacha raposiana lastimosa e indefensa que también es aprendiz de juez en la Comisión de los Diez Líderes y que debe atrapar fantasmas a pesar de tenerles miedo.', 'Un juez de la Comisión de los Diez Líderes selló en su cola un heliobus, el cual responde al nombre de Cola. Ahora carga con el título de maldita porque atrae el mal. Teme a los demonios y espíritus malignos, pero siempre se le encomienda la ardua tarea de capturarlos y erradicarlos. Aunque reconoce su falta de habilidades, no logra reunir el valor necesario para renunciar y sigue adelante a pesar de su miedo.', '../assets/5 estrellas/huohuo.webp', '../assets/5 estrellas/conos/cono huohuo.webp')">
+                <div class="card card-huohuo" onclick="abrirPopup5('Huohuo', '../assets/viasElementos/viento.webp', '../assets/viasElementos/abundancia.webp', 'Una muchacha raposiana lastimosa e indefensa que también es aprendiz de juez en la Comisión de los Diez Líderes y que debe atrapar fantasmas a pesar de tenerles miedo.', 'Un juez de la Comisión de los Diez Líderes selló en su cola un heliobus, el cual responde al nombre de Cola. Ahora carga con el título de maldita porque atrae el mal. Teme a los demonios y espíritus malignos, pero siempre se le encomienda la ardua tarea de capturarlos y erradicarlos. Aunque reconoce su falta de habilidades, no logra reunir el valor necesario para renunciar y sigue adelante a pesar de su miedo.', '../assets/5 estrellas/huohuo.webp', '../assets/5 estrellas/conos/cono huohuo.webp')">
                     <img src="../assets/5 estrellas/huohuo.webp" alt="Huohuo" class="card-img-top">
                     <div class="card-body">
                         <h5 class="card-title cinco-estrellas">Huohuo</h5>
@@ -346,7 +348,7 @@
             </div>
 
             <div class="col-md-2">
-                <div class="card card-jiaoqiu" onclick="abrirPopup5('Jiaoqiu', '../assets/fuego.webp', '../assets/nihilidad.webp', 'Un sanador raposiano y consejero del Yaoqing de Xianzhou. A menudo saluda a la gente con una sonrisa, pero es bastante astuto. Proveniente de una familia distinguida de la Comisión de Alquimia, una vez se retiró del mundo y dejó de practicar la medicina, desilusionado. Sin embargo, regresó para tratar a Feixiao, la Garra Celestial.', 'Experto en el estudio de la prescripción alquímica que considera los alimentos como medicina, especialmente aquellos que inducen una sensación picante. Inventó un estilo medicinal en caldero conocido como la cuadrícula de nueve espacios.', '../assets/5 estrellas/jiaoqiu.webp', '../assets/5 estrellas/conos/cono jiaoqiu.webp')">
+                <div class="card card-jiaoqiu" onclick="abrirPopup5('Jiaoqiu', '../assets/viasElementos/fuego.webp', '../assets/viasElementos/nihilidad.webp', 'Un sanador raposiano y consejero del Yaoqing de Xianzhou. A menudo saluda a la gente con una sonrisa, pero es bastante astuto. Proveniente de una familia distinguida de la Comisión de Alquimia, una vez se retiró del mundo y dejó de practicar la medicina, desilusionado. Sin embargo, regresó para tratar a Feixiao, la Garra Celestial.', 'Experto en el estudio de la prescripción alquímica que considera los alimentos como medicina, especialmente aquellos que inducen una sensación picante. Inventó un estilo medicinal en caldero conocido como la cuadrícula de nueve espacios.', '../assets/5 estrellas/jiaoqiu.webp', '../assets/5 estrellas/conos/cono jiaoqiu.webp')">
                     <img src="../assets/5 estrellas/jiaoqiu.webp" alt="Jiaoqiu" class="card-img-top">
                     <div class="card-body">
                         <h5 class="card-title cinco-estrellas">Jiaoqiu</h5>
@@ -355,7 +357,7 @@
             </div>
 
             <div class="col-md-2">
-                <div class="card card-feixiao" onclick="abrirPopup5('Feixiao', '../assets/viento.webp', '../assets/caceria.webp', 'La Garra Celestial del Yaoqing de Xianzhou y uno de los siete generales celestiales del Señor Arquero. Su personalidad es desenfrenada y franca, atrevida y directa. Es experta en todas las formas de artes marciales y se perfeccionó hasta convertirse en un arma suprema. Tanto los soldados como los civiles de Xianzhou la adoran como la General Victoriosa.', 'Sin embargo, sufre de la aflicción de la Locura lunar. Si tuviera que cazar todas las abominaciones en su limitada vida, entonces el único enemigo que tendría Feixiao sería ella misma.', '../assets/5 estrellas/feixiao.webp', '../assets/5 estrellas/conos/cono feixiao.webp')">
+                <div class="card card-feixiao" onclick="abrirPopup5('Feixiao', '../assets/viasElementos/viento.webp', '../assets/viasElementos/caceria.webp', 'La Garra Celestial del Yaoqing de Xianzhou y uno de los siete generales celestiales del Señor Arquero. Su personalidad es desenfrenada y franca, atrevida y directa. Es experta en todas las formas de artes marciales y se perfeccionó hasta convertirse en un arma suprema. Tanto los soldados como los civiles de Xianzhou la adoran como la General Victoriosa.', 'Sin embargo, sufre de la aflicción de la Locura lunar. Si tuviera que cazar todas las abominaciones en su limitada vida, entonces el único enemigo que tendría Feixiao sería ella misma.', '../assets/5 estrellas/feixiao.webp', '../assets/5 estrellas/conos/cono feixiao.webp')">
                     <img src="../assets/5 estrellas/feixiao.webp" alt="Feixiao" class="card-img-top">
                     <div class="card-body">
                         <h5 class="card-title cinco-estrellas">Feixiao</h5>
@@ -364,7 +366,7 @@
             </div>
 
             <div class="col-md-2">
-                <div class="card card-yunli" onclick="abrirPopup5('Yunli', '../assets/fisico.webp', '../assets/destruccion.webp', 'Una cazadora de espadas del Zhuming de Xianzhou y la nieta predilecta del general Huaiyan, el Corazón Llameante. Franca y directa.', 'Practicó la espada y la forja de Huaiyan desde joven, por lo que es la segunda maestra de la espada prodigio más joven del Octeto del Disco Llameante. Impulsada por una intensa aversión a las espadas malditas surgidas del Zhuming, juró cazar y aniquilar todas las espadas malditas.', '../assets/5 estrellas/yunli.webp', '../assets/5 estrellas/conos/cono yunli.png')">
+                <div class="card card-yunli" onclick="abrirPopup5('Yunli', '../assets/viasElementos/fisico.webp', '../assets/viasElementos/destruccion.webp', 'Una cazadora de espadas del Zhuming de Xianzhou y la nieta predilecta del general Huaiyan, el Corazón Llameante. Franca y directa.', 'Practicó la espada y la forja de Huaiyan desde joven, por lo que es la segunda maestra de la espada prodigio más joven del Octeto del Disco Llameante. Impulsada por una intensa aversión a las espadas malditas surgidas del Zhuming, juró cazar y aniquilar todas las espadas malditas.', '../assets/5 estrellas/yunli.webp', '../assets/5 estrellas/conos/cono yunli.png')">
                     <img src="../assets/5 estrellas/yunli.webp" alt="Yunli" class="card-img-top">
                     <div class="card-body">
                         <h5 class="card-title cinco-estrellas">Yunli</h5>
@@ -373,7 +375,7 @@
             </div>
 
             <div class="col-md-2">
-                <div class="card card-lingsha" onclick="abrirPopup5('Lingsha', '../assets/fuego.webp', '../assets/abundancia.webp', 'La nueva líder de la Comisión de Alquimia del Luofu de Xianzhou. Una sanadora vidyadhara inteligente e ingeniosa.', 'Tiene un agudo sentido del olfato y suele usarlo para diagnosticar enfermedades, además de usar su incienso para calmar las mentes de los demás. Es experta manejando relaciones sociales complicadas. Aunque por dentro quizás esté furiosa, su expresión se mantendrá calmada y serena.', '../assets/5 estrellas/lingsha.webp', '../assets/5 estrellas/conos/cono lingsha.webp')">
+                <div class="card card-lingsha" onclick="abrirPopup5('Lingsha', '../assets/viasElementos/fuego.webp', '../assets/viasElementos/abundancia.webp', 'La nueva líder de la Comisión de Alquimia del Luofu de Xianzhou. Una sanadora vidyadhara inteligente e ingeniosa.', 'Tiene un agudo sentido del olfato y suele usarlo para diagnosticar enfermedades, además de usar su incienso para calmar las mentes de los demás. Es experta manejando relaciones sociales complicadas. Aunque por dentro quizás esté furiosa, su expresión se mantendrá calmada y serena.', '../assets/5 estrellas/lingsha.webp', '../assets/5 estrellas/conos/cono lingsha.webp')">
                     <img src="../assets/5 estrellas/lingsha.webp" alt="Lingsha" class="card-img-top">
                     <div class="card-body">
                         <h5 class="card-title cinco-estrellas">Lingsha</h5>
@@ -385,7 +387,7 @@
         <!-- 6 row -->
         <div class="row">
             <div class="col-md-2">
-                <div class="card card-fugue" onclick="abrirPopup5('Fugue', '../assets/fuego.webp', '../assets/nihilidad.webp', 'Una raposiana con mucho tacto, cuyo aspecto, nombre e identidad han sido robados.', 'El destino le ha dejado un pequeño margen para sobrevivir, pero la marca de la Destrucción aún se retuerce de impaciencia. La fugitiva que ha experimentado la vida y la muerte y recibe una nueva oportunidad de vivir... ¿cuándo podrá volver a casa?', '../assets/5 estrellas/fugue.webp', '../assets/5 estrellas/conos/cono fugue.webp')">
+                <div class="card card-fugue" onclick="abrirPopup5('Fugue', '../assets/viasElementos/fuego.webp', '../assets/viasElementos/nihilidad.webp', 'Una raposiana con mucho tacto, cuyo aspecto, nombre e identidad han sido robados.', 'El destino le ha dejado un pequeño margen para sobrevivir, pero la marca de la Destrucción aún se retuerce de impaciencia. La fugitiva que ha experimentado la vida y la muerte y recibe una nueva oportunidad de vivir... ¿cuándo podrá volver a casa?', '../assets/5 estrellas/fugue.webp', '../assets/5 estrellas/conos/cono fugue.webp')">
                     <img src="../assets/5 estrellas/fugue.webp" alt="Fugue" class="card-img-top">
                     <div class="card-body">
                         <h5 class="card-title cinco-estrellas">Fugue</h5>
@@ -394,7 +396,7 @@
             </div>
 
             <div class="col-md-2">
-                <div class="card card-argenti" onclick="abrirPopup5('Argenti', '../assets/fisico.webp', '../assets/erudicion.webp', 'Un clásico caballero de los Caballeros de la Belleza.', 'Es la personificación de la justicia y el honor, además de poseer una nobleza admirable. Como un vagabundo solitario en el cosmos, abraza de todo corazón los principios de la Belleza. Mantener el honor de la belleza en el universo es el honor sagrado de Argenti. Desde el inicio, ha desempeñado su deber con una convicción piadosa e inquebrantable.', '../assets/5 estrellas/argenti.webp', '../assets/5 estrellas/conos/cono argenti.webp')">
+                <div class="card card-argenti" onclick="abrirPopup5('Argenti', '../assets/viasElementos/fisico.webp', '../assets/viasElementos/erudicion.webp', 'Un clásico caballero de los Caballeros de la Belleza.', 'Es la personificación de la justicia y el honor, además de poseer una nobleza admirable. Como un vagabundo solitario en el cosmos, abraza de todo corazón los principios de la Belleza. Mantener el honor de la belleza en el universo es el honor sagrado de Argenti. Desde el inicio, ha desempeñado su deber con una convicción piadosa e inquebrantable.', '../assets/5 estrellas/argenti.webp', '../assets/5 estrellas/conos/cono argenti.webp')">
                     <img src="../assets/5 estrellas/argenti.webp" alt="Argenti" class="card-img-top">
                     <div class="card-body">
                         <h5 class="card-title cinco-estrellas">Argenti</h5>
@@ -403,7 +405,7 @@
             </div>
 
             <div class="col-md-2">
-                <div class="card card-ruanmei" onclick="abrirPopup5('Ruan Mei', '../assets/hielo.webp', '../assets/armonia.webp', 'Una erudita de carácter gentil y elegante. Es el miembro n.º 81 del Círculo de Genios, experta en el campo de las ciencias de la vida. Se ganó la atención de Nous gracias a su talento y asombrosa dedicación. Comenzó su estudio y exploración del origen de la vida en un rincón secreto.', 'Para ese propósito, Herta la invitó a desarrollar el Universo Simulado de la mano de Tornillum y Stephen. En secreto, disfruta mucho del teatro tradicional y los postres, y también está muy interesada en el bordado.', '../assets/5 estrellas/ruan mei.webp', '../assets/5 estrellas/conos/cono ruan mei.webp')">
+                <div class="card card-ruanmei" onclick="abrirPopup5('Ruan Mei', '../assets/viasElementos/hielo.webp', '../assets/viasElementos/armonia.webp', 'Una erudita de carácter gentil y elegante. Es el miembro n.º 81 del Círculo de Genios, experta en el campo de las ciencias de la vida. Se ganó la atención de Nous gracias a su talento y asombrosa dedicación. Comenzó su estudio y exploración del origen de la vida en un rincón secreto.', 'Para ese propósito, Herta la invitó a desarrollar el Universo Simulado de la mano de Tornillum y Stephen. En secreto, disfruta mucho del teatro tradicional y los postres, y también está muy interesada en el bordado.', '../assets/5 estrellas/ruan mei.webp', '../assets/5 estrellas/conos/cono ruan mei.webp')">
                     <img src="../assets/5 estrellas/ruan mei.webp" alt="Ruan Mei" class="card-img-top">
                     <div class="card-body">
                         <h5 class="card-title cinco-estrellas">Ruan Mei</h5>
@@ -412,7 +414,7 @@
             </div>
 
             <div class="col-md-2">
-                <div class="card card-aventurino" onclick="abrirPopup5('Aventurino', '../assets/imaginario.webp', '../assets/conservacion.webp', 'Alto directivo del Departamento de Inversiones Estratégicas de la Corporación para la Paz Interastral y uno de los Diez Corazones de Piedra, su piedra angular es la aventurina de las estratagemas.', 'Corredor de riesgos ostentoso, a menudo luce una sonrisa que enmascara sus verdaderos motivos. Ganó su posición actual apostando contra el propio destino. Considera la vida como una inversión de alto riesgo y alto rendimiento, y juega esta particular apuesta con una facilidad magistral.', '../assets/5 estrellas/aventurino.webp', '../assets/5 estrellas/conos/cono aventurino.png')">
+                <div class="card card-aventurino" onclick="abrirPopup5('Aventurino', '../assets/viasElementos/imaginario.webp', '../assets/viasElementos/conservacion.webp', 'Alto directivo del Departamento de Inversiones Estratégicas de la Corporación para la Paz Interastral y uno de los Diez Corazones de Piedra, su piedra angular es la aventurina de las estratagemas.', 'Corredor de riesgos ostentoso, a menudo luce una sonrisa que enmascara sus verdaderos motivos. Ganó su posición actual apostando contra el propio destino. Considera la vida como una inversión de alto riesgo y alto rendimiento, y juega esta particular apuesta con una facilidad magistral.', '../assets/5 estrellas/aventurino.webp', '../assets/5 estrellas/conos/cono aventurino.png')">
                     <img src="../assets/5 estrellas/aventurino.webp" alt="Aventurino" class="card-img-top">
                     <div class="card-body">
                         <h5 class="card-title cinco-estrellas">Aventurino</h5>
@@ -421,7 +423,7 @@
             </div>
 
             <div class="col-md-2">
-                <div class="card card-drratio" onclick="abrirPopup5('Dr. Ratio', '../assets/imaginario.webp', '../assets/caceria.webp', 'Erudito directo y egocéntrico de la Sociedad del Conocimiento. Suele ocultar su rostro con una extraña cabeza de escayola.', 'Ha demostrado un gran talento desde niño, pero ahora se autodenomina mediocre. Convencido de que la inteligencia y la creatividad no son exclusivas de los genios, se dedica a difundir el conocimiento en todo el cosmos para curar la persistente enfermedad llamada estupidez.', '../assets/5 estrellas/dr ratio.webp', '../assets/5 estrellas/conos/cono dr ratio.webp')">
+                <div class="card card-drratio" onclick="abrirPopup5('Dr. Ratio', '../assets/viasElementos/imaginario.webp', '../assets/viasElementos/caceria.webp', 'Erudito directo y egocéntrico de la Sociedad del Conocimiento. Suele ocultar su rostro con una extraña cabeza de escayola.', 'Ha demostrado un gran talento desde niño, pero ahora se autodenomina mediocre. Convencido de que la inteligencia y la creatividad no son exclusivas de los genios, se dedica a difundir el conocimiento en todo el cosmos para curar la persistente enfermedad llamada estupidez.', '../assets/5 estrellas/dr ratio.webp', '../assets/5 estrellas/conos/cono dr ratio.webp')">
                     <img src="../assets/5 estrellas/dr ratio.webp" alt="Dr. Ratio" class="card-img-top">
                     <div class="card-body">
                         <h5 class="card-title cinco-estrellas">Dr. Ratio</h5>
@@ -433,7 +435,7 @@
         <!-- 7 row -->
         <div class="row">
             <div class="col-md-2">
-                <div class="card card-sparkle" onclick="abrirPopup5('Sparkle', '../assets/cuantico.webp', '../assets/armonia.webp', 'Una miembro de los Bufones Enmascarados inescrutable y sin escrúpulos. Una peligrosa maestra de las artes dramáticas obsesionada con la actuación.', 'Una mujer de innumerables máscaras y capaz de usar un sinfín de rostros. Riqueza, estatus, poder... Nada de esto importa a Sparkle. Lo único que puede despertar su interés es la diversión.', '../assets/5 estrellas/sparkle.webp', '../assets/5 estrellas/conos/cono sparkle.webp')">
+                <div class="card card-sparkle" onclick="abrirPopup5('Sparkle', '../assets/viasElementos/cuantico.webp', '../assets/viasElementos/armonia.webp', 'Una miembro de los Bufones Enmascarados inescrutable y sin escrúpulos. Una peligrosa maestra de las artes dramáticas obsesionada con la actuación.', 'Una mujer de innumerables máscaras y capaz de usar un sinfín de rostros. Riqueza, estatus, poder... Nada de esto importa a Sparkle. Lo único que puede despertar su interés es la diversión.', '../assets/5 estrellas/sparkle.webp', '../assets/5 estrellas/conos/cono sparkle.webp')">
                     <img src="../assets/5 estrellas/sparkle.webp" alt="Sparkle" class="card-img-top">
                     <div class="card-body">
                         <h5 class="card-title cinco-estrellas">Sparkle</h5>
@@ -442,7 +444,7 @@
             </div>
 
             <div class="col-md-2">
-                <div class="card card-cisnenegro" onclick="abrirPopup5('Cisne Negro', '../assets/viento.webp', '../assets/nihilidad.webp', 'damemorias del Jardín de los Recuerdos. Una adivina misteriosa y elegante.', 'A menudo luce una amable sonrisa y está dispuesta a escuchar pacientemente lo que le cuenten, lo que usa como pretexto para introducirse en los recuerdos y averiguarlo todo sobre ciertos asuntos. Una dama a la que le apasiona recopilar recuerdos únicos, aunque es difícil deducir cuáles son sus intenciones.', '../assets/5 estrellas/cisne negro.webp', '../assets/5 estrellas/conos/cono cisne negro.webp')">
+                <div class="card card-cisnenegro" onclick="abrirPopup5('Cisne Negro', '../assets/viasElementos/viento.webp', '../assets/viasElementos/nihilidad.webp', 'damemorias del Jardín de los Recuerdos. Una adivina misteriosa y elegante.', 'A menudo luce una amable sonrisa y está dispuesta a escuchar pacientemente lo que le cuenten, lo que usa como pretexto para introducirse en los recuerdos y averiguarlo todo sobre ciertos asuntos. Una dama a la que le apasiona recopilar recuerdos únicos, aunque es difícil deducir cuáles son sus intenciones.', '../assets/5 estrellas/cisne negro.webp', '../assets/5 estrellas/conos/cono cisne negro.webp')">
                     <img src="../assets/5 estrellas/cisne negro.webp" alt="Cisne Negro" class="card-img-top">
                     <div class="card-body">
                         <h5 class="card-title cinco-estrellas">Cisne Negro</h5>
@@ -451,7 +453,7 @@
             </div>
 
             <div class="col-md-2">
-                <div class="card card-acheron" onclick="abrirPopup5('Acheron', '../assets/rayo.webp', '../assets/nihilidad.webp', 'Una vagabunda que se hace llamar Vigilante de la Galaxia de la que nadie sabe su verdadero nombre. Deambula sola por el cosmos, llevando consigo una larga espada.', 'Aunque indiferente y taciturna, su espada es tan súbita y violenta como un relámpago. Sin embargo, siempre lucha con su espada envainada.', '../assets/5 estrellas/acheron.webp', '../assets/5 estrellas/conos/cono acheron.png')">
+                <div class="card card-acheron" onclick="abrirPopup5('Acheron', '../assets/viasElementos/rayo.webp', '../assets/viasElementos/nihilidad.webp', 'Una vagabunda que se hace llamar Vigilante de la Galaxia de la que nadie sabe su verdadero nombre. Deambula sola por el cosmos, llevando consigo una larga espada.', 'Aunque indiferente y taciturna, su espada es tan súbita y violenta como un relámpago. Sin embargo, siempre lucha con su espada envainada.', '../assets/5 estrellas/acheron.webp', '../assets/5 estrellas/conos/cono acheron.png')">
                     <img src="../assets/5 estrellas/acheron.webp" alt="Acheron" class="card-img-top">
                     <div class="card-body">
                         <h5 class="card-title cinco-estrellas">Acheron</h5>
@@ -460,7 +462,7 @@
             </div>
 
             <div class="col-md-2">
-                <div class="card card-robin" onclick="abrirPopup5('Robin', '../assets/fisico.webp', '../assets/armonia.webp', 'Una cantante aureoliana originaria de Colonipenal que saltó a la fama cósmica. Una joven elegante y modesta.', 'Esta vez, La Familia la invitó para agasajar a todos con sus canciones durante el Festival Carismonía. Puede usar el poder de la Armonía para transmitir su música, manifestando resonancia entre sus fans y todo tipo de formas de vida.', '../assets/5 estrellas/robin.webp', '../assets/5 estrellas/conos/cono robin.png')">
+                <div class="card card-robin" onclick="abrirPopup5('Robin', '../assets/viasElementos/fisico.webp', '../assets/viasElementos/armonia.webp', 'Una cantante aureoliana originaria de Colonipenal que saltó a la fama cósmica. Una joven elegante y modesta.', 'Esta vez, La Familia la invitó para agasajar a todos con sus canciones durante el Festival Carismonía. Puede usar el poder de la Armonía para transmitir su música, manifestando resonancia entre sus fans y todo tipo de formas de vida.', '../assets/5 estrellas/robin.webp', '../assets/5 estrellas/conos/cono robin.png')">
                     <img src="../assets/5 estrellas/robin.webp" alt="Robin" class="card-img-top">
                     <div class="card-body">
                         <h5 class="card-title cinco-estrellas">Robin</h5>
@@ -469,7 +471,7 @@
             </div>
 
             <div class="col-md-2">
-                <div class="card card-luciernaga" onclick="abrirPopup5('Luciérnaga', '../assets/fuego.webp', '../assets/destruccion.webp', 'Un miembro de los Cazadores de Estelaron que usa un equipo de armadura mecanizada conocido como SAM. Su personalidad se caracteriza por su determinación y lealtad inquebrantable.', 'Diseñada y nacida como un arma contra El Enjambre, crece a una velocidad extremadamente rápida, pero su esperanza de vida es muy corta. Se unió a los Cazadores de Estelaron en búsqueda de una oportunidad de sobrevivir y encontrar la forma de desafiar su destino.', '../assets/5 estrellas/luciernaga.webp', '../assets/5 estrellas/conos/cono luciernaga.webp')">
+                <div class="card card-luciernaga" onclick="abrirPopup5('Luciérnaga', '../assets/viasElementos/fuego.webp', '../assets/viasElementos/destruccion.webp', 'Un miembro de los Cazadores de Estelaron que usa un equipo de armadura mecanizada conocido como SAM. Su personalidad se caracteriza por su determinación y lealtad inquebrantable.', 'Diseñada y nacida como un arma contra El Enjambre, crece a una velocidad extremadamente rápida, pero su esperanza de vida es muy corta. Se unió a los Cazadores de Estelaron en búsqueda de una oportunidad de sobrevivir y encontrar la forma de desafiar su destino.', '../assets/5 estrellas/luciernaga.webp', '../assets/5 estrellas/conos/cono luciernaga.webp')">
                     <img src="../assets/5 estrellas/luciernaga.webp" alt="Luciérnaga" class="card-img-top">
                     <div class="card-body">
                         <h5 class="card-title cinco-estrellas">Luciérnaga</h5>
@@ -481,7 +483,7 @@
         <!-- 8 row -->
         <div class="row">
             <div class="col-md-2">
-                <div class="card card-sunday" onclick="abrirPopup5('Sunday', '../assets/imaginario.webp', '../assets/armonia.webp', 'El sueño del Orden se ha disipado, pero aún quedan quienes no renuncian a su propósito original.', '¿Hacia dónde se dirigirán los pasos del viajero que perdió sus alas?', '../assets/5 estrellas/sunday.webp', '../assets/5 estrellas/conos/cono sunday.webp')">
+                <div class="card card-sunday" onclick="abrirPopup5('Sunday', '../assets/viasElementos/imaginario.webp', '../assets/viasElementos/armonia.webp', 'El sueño del Orden se ha disipado, pero aún quedan quienes no renuncian a su propósito original.', '¿Hacia dónde se dirigirán los pasos del viajero que perdió sus alas?', '../assets/5 estrellas/sunday.webp', '../assets/5 estrellas/conos/cono sunday.webp')">
                     <img src="../assets/5 estrellas/sunday.webp" alt="Sunday" class="card-img-top">
                     <div class="card-body">
                         <h5 class="card-title cinco-estrellas">Sunday</h5>
@@ -490,7 +492,7 @@
             </div>
 
             <div class="col-md-2">
-                <div class="card card-jade" onclick="abrirPopup5('Jade', '../assets/cuantico.webp', '../assets/erudicion.webp', 'Una alta directiva del Departamento de Inversiones Estratégicas de la Corporación y una de los Diez Corazones de Piedra, conocida por su piedra angular jade del préstamo.', 'La bella y elegante prestamista, experta en descifrar las profundidades de la mente de las personas, suele exigir un precio a sus adversarios y asegura los beneficios de la Corporación mediante garantías y contratos. Está dispuesta a hacer todo lo posible por sentar las bases para adquirir algo de mayor valor y obtener beneficios de clientes aparentemente sin dinero.', '../assets/5 estrellas/jade.webp', '../assets/5 estrellas/conos/cono jade.webp')">
+                <div class="card card-jade" onclick="abrirPopup5('Jade', '../assets/viasElementos/cuantico.webp', '../assets/viasElementos/erudicion.webp', 'Una alta directiva del Departamento de Inversiones Estratégicas de la Corporación y una de los Diez Corazones de Piedra, conocida por su piedra angular jade del préstamo.', 'La bella y elegante prestamista, experta en descifrar las profundidades de la mente de las personas, suele exigir un precio a sus adversarios y asegura los beneficios de la Corporación mediante garantías y contratos. Está dispuesta a hacer todo lo posible por sentar las bases para adquirir algo de mayor valor y obtener beneficios de clientes aparentemente sin dinero.', '../assets/5 estrellas/jade.webp', '../assets/5 estrellas/conos/cono jade.webp')">
                     <img src="../assets/5 estrellas/jade.webp" alt="Jade" class="card-img-top">
                     <div class="card-body">
                         <h5 class="card-title cinco-estrellas">Jade</h5>
@@ -499,7 +501,7 @@
             </div>
 
             <div class="col-md-2">
-                <div class="card card-boothill" onclick="abrirPopup5('Boothill', '../assets/fisico.webp', '../assets/caceria.webp', 'Un vaquero androide, extremadamente optimista y desenfrenado, que va a la deriva por las estrellas.', 'Es miembro de los Vigilantes de la Galaxia y juró castigar a los viles y despreciables por todos y cada uno de los medios disponibles... Sus acciones, extravagantes y descaradas, no tienen otro propósito más que llamar la atención de la Corporación para la Paz Interastral, el objetivo de su venganza.', '../assets/5 estrellas/boothill.webp', '../assets/5 estrellas/conos/cono boothill.png')">
+                <div class="card card-boothill" onclick="abrirPopup5('Boothill', '../assets/viasElementos/fisico.webp', '../assets/viasElementos/caceria.webp', 'Un vaquero androide, extremadamente optimista y desenfrenado, que va a la deriva por las estrellas.', 'Es miembro de los Vigilantes de la Galaxia y juró castigar a los viles y despreciables por todos y cada uno de los medios disponibles... Sus acciones, extravagantes y descaradas, no tienen otro propósito más que llamar la atención de la Corporación para la Paz Interastral, el objetivo de su venganza.', '../assets/5 estrellas/boothill.webp', '../assets/5 estrellas/conos/cono boothill.png')">
                     <img src="../assets/5 estrellas/boothill.webp" alt="Boothill" class="card-img-top">
                     <div class="card-body">
                         <h5 class="card-title cinco-estrellas">Boothill</h5>
@@ -508,7 +510,7 @@
             </div>
 
             <div class="col-md-2">
-                <div class="card card-rappa" onclick="abrirPopup5('Rappa', '../assets/imaginario.webp', '../assets/erudicion.webp', 'Una misteriosa chica, autoproclamada ninja, que aparece en Colonipenal como un relámpago a medianoche y que atribuye todo al ninjutsu.', 'Su vía del ninja consiste en recitar mantras ninja, pintar sellos ninja y estudiar los manuales secretos... Es decir, rap, graffiti y manga. Rappa sigue una rigurosa disciplina y viaja entre las estrellas para defender la justicia. Como Vigilante de la Galaxia, persigue a Osaru, el ninja malvado, hasta los confines del cosmos.', '../assets/5 estrellas/rappa.webp', '../assets/5 estrellas/conos/cono rappa.png')">
+                <div class="card card-rappa" onclick="abrirPopup5('Rappa', '../assets/viasElementos/imaginario.webp', '../assets/viasElementos/erudicion.webp', 'Una misteriosa chica, autoproclamada ninja, que aparece en Colonipenal como un relámpago a medianoche y que atribuye todo al ninjutsu.', 'Su vía del ninja consiste en recitar mantras ninja, pintar sellos ninja y estudiar los manuales secretos... Es decir, rap, graffiti y manga. Rappa sigue una rigurosa disciplina y viaja entre las estrellas para defender la justicia. Como Vigilante de la Galaxia, persigue a Osaru, el ninja malvado, hasta los confines del cosmos.', '../assets/5 estrellas/rappa.webp', '../assets/5 estrellas/conos/cono rappa.png')">
                     <img src="../assets/5 estrellas/rappa.webp" alt="Rappa" class="card-img-top">
                     <div class="card-body">
                         <h5 class="card-title cinco-estrellas">Rappa</h5>
@@ -517,7 +519,7 @@
             </div>
 
             <div class="col-md-2">
-                <div class="card card-ladalia" onclick="abrirPopup5('La Dalia', '../assets/fuego.webp', '../assets/nihilidad.webp', 'El dulce sueño consumió la Mansión del Fuego Eterno, llevándose consigo los vestigios de ella.', 'Destrucción, Reminiscencia... Las flores de la Traición florecen por donde pasa. ¿Qué otro lugar la prenderá de nuevo tras volver al desconocido paisaje onírico?', '../assets/5 estrellas/dalia.webp', '../assets/5 estrellas/conos/cono dalia.png')">
+                <div class="card card-ladalia" onclick="abrirPopup5('La Dalia', '../assets/viasElementos/fuego.webp', '../assets/viasElementos/nihilidad.webp', 'El dulce sueño consumió la Mansión del Fuego Eterno, llevándose consigo los vestigios de ella.', 'Destrucción, Reminiscencia... Las flores de la Traición florecen por donde pasa. ¿Qué otro lugar la prenderá de nuevo tras volver al desconocido paisaje onírico?', '../assets/5 estrellas/dalia.webp', '../assets/5 estrellas/conos/cono dalia.png')">
                     <img src="../assets/5 estrellas/dalia.webp" alt="La Dalia" class="card-img-top">
                     <div class="card-body">
                         <h5 class="card-title cinco-estrellas">La Dalia</h5>
@@ -529,7 +531,7 @@
         <!-- 9 row -->
         <div class="row">
             <div class="col-md-2">
-                <div class="card card-sraherta" onclick="abrirPopup5('Sra. Herta', '../assets/hielo.webp', '../assets/erudicion.webp', 'La señora Herta, miembro n.º 83 del Círculo de Genios, vive en las profundidades de la torre del reloj, en el confín del cosmos, persiguiendo los más grandes misterios del universo como hechicera.', 'Gracias a la tecnología de rejuvenecimiento, conserva la apariencia juvenil de sus mejores años. Desprecia los asuntos triviales y habitualmente delega tales responsabilidades en sus marionetas.', '../assets/5 estrellas/sra herta.webp', '../assets/5 estrellas/conos/cono herta.webp')">
+                <div class="card card-sraherta" onclick="abrirPopup5('Sra. Herta', '../assets/viasElementos/hielo.webp', '../assets/viasElementos/erudicion.webp', 'La señora Herta, miembro n.º 83 del Círculo de Genios, vive en las profundidades de la torre del reloj, en el confín del cosmos, persiguiendo los más grandes misterios del universo como hechicera.', 'Gracias a la tecnología de rejuvenecimiento, conserva la apariencia juvenil de sus mejores años. Desprecia los asuntos triviales y habitualmente delega tales responsabilidades en sus marionetas.', '../assets/5 estrellas/sra herta.webp', '../assets/5 estrellas/conos/cono herta.webp')">
                     <img src="../assets/5 estrellas/sra herta.webp" alt="Sra. Herta" class="card-img-top">
                     <div class="card-body">
                         <h5 class="card-title cinco-estrellas">Sra. Herta</h5>
@@ -538,7 +540,7 @@
             </div>
 
             <div class="col-md-2">
-                <div class="card card-aglaea" onclick="abrirPopup5('Aglaea', '../assets/rayo.webp', '../assets/reminiscencia.webp', 'En la ciudad sagrada, iluminada por el amanecer, la tejedora trabaja con delicadeza el hilo dorado, cosiendo destinos entrelazados.', 'Una de los Herederos de Crisos, que porta la Yesca del Romance, convocará a los héroes de este mundo y los guiará una vez más en la extensa travesía... Para derrocar a los dioses, devolver el fuego sagrado y otorgar una nueva vida a un Amphoreus casi destruido.', '../assets/5 estrellas/aglaea.webp', '../assets/5 estrellas/conos/cono aglaea.webp')">
+                <div class="card card-aglaea" onclick="abrirPopup5('Aglaea', '../assets/viasElementos/rayo.webp', '../assets/viasElementos/reminiscencia.webp', 'En la ciudad sagrada, iluminada por el amanecer, la tejedora trabaja con delicadeza el hilo dorado, cosiendo destinos entrelazados.', 'Una de los Herederos de Crisos, que porta la Yesca del Romance, convocará a los héroes de este mundo y los guiará una vez más en la extensa travesía... Para derrocar a los dioses, devolver el fuego sagrado y otorgar una nueva vida a un Amphoreus casi destruido.', '../assets/5 estrellas/aglaea.webp', '../assets/5 estrellas/conos/cono aglaea.webp')">
                     <img src="../assets/5 estrellas/aglaea.webp" alt="Aglaea" class="card-img-top">
                     <div class="card-body">
                         <h5 class="card-title cinco-estrellas">Aglaea</h5>
@@ -547,7 +549,7 @@
             </div>
 
             <div class="col-md-2">
-                <div class="card card-tribbie" onclick="abrirPopup5('Tribbie', '../assets/cuantico.webp', '../assets/armonia.webp', 'La mensajera parte desde esa tierra sagrada amada por el oráculo tripartito, se divide en mil pedazos y emprende su largo viaje.', 'Oh, Trispios, doncella de Janópolis, Heredera de Crisos que robó la Yesca de la Senda. Deberás recorrer el mundo y proclamar la salvación a todos los seres. Encuentra a los hijos de los hombres con sangre dorada de dioses en sus venas, atraviesa la oscuridad de este mundo y camina hacia un mañana en el que la luna y las estrellas brillen.', '../assets/5 estrellas/tribbie.webp', '../assets/5 estrellas/conos/cono tribbie.webp')">
+                <div class="card card-tribbie" onclick="abrirPopup5('Tribbie', '../assets/viasElementos/cuantico.webp', '../assets/viasElementos/armonia.webp', 'La mensajera parte desde esa tierra sagrada amada por el oráculo tripartito, se divide en mil pedazos y emprende su largo viaje.', 'Oh, Trispios, doncella de Janópolis, Heredera de Crisos que robó la Yesca de la Senda. Deberás recorrer el mundo y proclamar la salvación a todos los seres. Encuentra a los hijos de los hombres con sangre dorada de dioses en sus venas, atraviesa la oscuridad de este mundo y camina hacia un mañana en el que la luna y las estrellas brillen.', '../assets/5 estrellas/tribbie.webp', '../assets/5 estrellas/conos/cono tribbie.webp')">
                     <img src="../assets/5 estrellas/tribbie.webp" alt="Tribbie" class="card-img-top">
                     <div class="card-body">
                         <h5 class="card-title cinco-estrellas">Tribbie</h5>
@@ -556,7 +558,7 @@
             </div>
 
             <div class="col-md-2">
-                <div class="card card-midei" onclick="abrirPopup5('Midei', '../assets/imaginario.webp', '../assets/destruccion.webp', 'Kremnos, ¡la ciudad del caos y la guerra envuelta en la niebla! Su estirpe real está manchada con el parricidio, y su dios lleva el nombre de la catástrofe. El inmortal Mideimos, el león solitario, el Heredero de Crisos que persigue la Yesca del Conflicto. Deberás soportar mil muertes, bañarte en sangre y regresar a tu hogar, llevando sobre tus hombros un destino de locura.', 'Deberás asesinar a un rey para convertirte en rey y matar a un dios para convertirte en dios. Las pezuñas de hierro de la guerra recorrerán las tierras desoladas, pero al final, deberás mancharte con la sangre de tu patria.', '../assets/5 estrellas/midei.webp', '../assets/5 estrellas/conos/cono midei.webp')">
+                <div class="card card-midei" onclick="abrirPopup5('Midei', '../assets/viasElementos/imaginario.webp', '../assets/viasElementos/destruccion.webp', 'Kremnos, ¡la ciudad del caos y la guerra envuelta en la niebla! Su estirpe real está manchada con el parricidio, y su dios lleva el nombre de la catástrofe. El inmortal Mideimos, el león solitario, el Heredero de Crisos que persigue la Yesca del Conflicto. Deberás soportar mil muertes, bañarte en sangre y regresar a tu hogar, llevando sobre tus hombros un destino de locura.', 'Deberás asesinar a un rey para convertirte en rey y matar a un dios para convertirte en dios. Las pezuñas de hierro de la guerra recorrerán las tierras desoladas, pero al final, deberás mancharte con la sangre de tu patria.', '../assets/5 estrellas/midei.webp', '../assets/5 estrellas/conos/cono midei.webp')">
                     <img src="../assets/5 estrellas/midei.webp" alt="Midei" class="card-img-top">
                     <div class="card-body">
                         <h5 class="card-title cinco-estrellas">Midei</h5>
@@ -565,7 +567,7 @@
             </div>
 
             <div class="col-md-2">
-                <div class="card card-anaxa" onclick="abrirPopup5('Anaxa', '../assets/viento.webp', '../assets/erudicion.webp', 'El Soto de las Musas, una academia que nutre el conocimiento y la cuna donde nacen los filósofos.', 'Sin embargo, el hereje Anaxágoras, el Heredero de Crisos que cuestiona la Yesca de la Razón, recibiendo la pregunta: ¿Estás dispuesto a desafiar la profecía aunque tengas que cargar con una mala reputación, e insistes en las espinas de la duda en el árbol sagrado de la sabiduría? Qué absurdo. Este mundo está lleno de falsedades; solo yo soy la verdad.', '../assets/5 estrellas/anaxa.webp', '../assets/5 estrellas/conos/cono anaxa.webp')">
+                <div class="card card-anaxa" onclick="abrirPopup5('Anaxa', '../assets/viasElementos/viento.webp', '../assets/viasElementos/erudicion.webp', 'El Soto de las Musas, una academia que nutre el conocimiento y la cuna donde nacen los filósofos.', 'Sin embargo, el hereje Anaxágoras, el Heredero de Crisos que cuestiona la Yesca de la Razón, recibiendo la pregunta: ¿Estás dispuesto a desafiar la profecía aunque tengas que cargar con una mala reputación, e insistes en las espinas de la duda en el árbol sagrado de la sabiduría? Qué absurdo. Este mundo está lleno de falsedades; solo yo soy la verdad.', '../assets/5 estrellas/anaxa.webp', '../assets/5 estrellas/conos/cono anaxa.webp')">
                     <img src="../assets/5 estrellas/anaxa.webp" alt="Anaxa" class="card-img-top">
                     <div class="card-body">
                         <h5 class="card-title cinco-estrellas">Anaxa</h5>
@@ -577,7 +579,7 @@
         <!-- 10 row -->
         <div class="row">
             <div class="col-md-2">
-                <div class="card card-cifer" onclick="abrirPopup5('Cífer', '../assets/cuantico.webp', '../assets/nihilidad.webp', 'Doros, la ciudad perdida de los bandidos, donde 300 forajidos se entretienen sin restricciones.', 'Ciferia, cometa demoníaco, ¡corre! Heredera de Crisos de la Yesca del Engaño, que tus mentiras se propaguen por el mundo. ¡Ja! ¿Intentas engañarme? ¡Ni lo sueñes!.', '../assets/5 estrellas/cifer.webp', '../assets/5 estrellas/conos/cono cifer.webp')">
+                <div class="card card-cifer" onclick="abrirPopup5('Cífer', '../assets/viasElementos/cuantico.webp', '../assets/viasElementos/nihilidad.webp', 'Doros, la ciudad perdida de los bandidos, donde 300 forajidos se entretienen sin restricciones.', 'Ciferia, cometa demoníaco, ¡corre! Heredera de Crisos de la Yesca del Engaño, que tus mentiras se propaguen por el mundo. ¡Ja! ¿Intentas engañarme? ¡Ni lo sueñes!.', '../assets/5 estrellas/cifer.webp', '../assets/5 estrellas/conos/cono cifer.webp')">
                     <img src="../assets/5 estrellas/cifer.webp" alt="Cífer" class="card-img-top">
                     <div class="card-body">
                         <h5 class="card-title cinco-estrellas">Cífer</h5>
@@ -586,7 +588,7 @@
             </div>
 
             <div class="col-md-2">
-                <div class="card card-castorice" onclick="abrirPopup5('Castorice', '../assets/cuantico.webp', '../assets/reminiscencia.webp', 'Aidonia, la nación que venera a la Muerte, donde la nieve cae todo el día, hoy se ha sumido en un dulce sueño.', 'Castorice, la hija del río Estigia, la Heredera de Crisos que busca la Yesca de la Muerte, comienza su viaje. Debes proteger el llanto de las almas del mundo y abrazar la soledad del destino. La vida y la muerte son solo un viaje. Cuando Babochka se posa en la rama, lo que se marchita volverá a renacer.', '../assets/5 estrellas/castorice.webp', '../assets/5 estrellas/conos/cono castorice.webp')">
+                <div class="card card-castorice" onclick="abrirPopup5('Castorice', '../assets/viasElementos/cuantico.webp', '../assets/viasElementos/reminiscencia.webp', 'Aidonia, la nación que venera a la Muerte, donde la nieve cae todo el día, hoy se ha sumido en un dulce sueño.', 'Castorice, la hija del río Estigia, la Heredera de Crisos que busca la Yesca de la Muerte, comienza su viaje. Debes proteger el llanto de las almas del mundo y abrazar la soledad del destino. La vida y la muerte son solo un viaje. Cuando Babochka se posa en la rama, lo que se marchita volverá a renacer.', '../assets/5 estrellas/castorice.webp', '../assets/5 estrellas/conos/cono castorice.webp')">
                     <img src="../assets/5 estrellas/castorice.webp" alt="Castorice" class="card-img-top">
                     <div class="card-body">
                         <h5 class="card-title cinco-estrellas">Castorice</h5>
@@ -595,7 +597,7 @@
             </div>
 
             <div class="col-md-2">
-                <div class="card card-fainon" onclick="abrirPopup5('Fainón', '../assets/fisico.webp', '../assets/destruccion.webp', 'Elisios, una aldea fronteriza aislada del mundo, ya solo vive en crípticas leyendas. ████, el héroe sin nombre, el Heredero de Crisos que porta la Yesca que Sostiene el Mundo, recuerda todos los ideales, carga con el destino de millones de personas y trae el primer amanecer del nuevo mundo.', 'Pero si el amanecer nunca ha existido, ¡que las llamas de la ira consuman este cuerpo y lo transformen en el sol ardiente del mañana!.', '../assets/5 estrellas/fainon.webp', '../assets/5 estrellas/conos/cono fainon.webp')">
+                <div class="card card-fainon" onclick="abrirPopup5('Fainón', '../assets/viasElementos/fisico.webp', '../assets/viasElementos/destruccion.webp', 'Elisios, una aldea fronteriza aislada del mundo, ya solo vive en crípticas leyendas. ████, el héroe sin nombre, el Heredero de Crisos que porta la Yesca que Sostiene el Mundo, recuerda todos los ideales, carga con el destino de millones de personas y trae el primer amanecer del nuevo mundo.', 'Pero si el amanecer nunca ha existido, ¡que las llamas de la ira consuman este cuerpo y lo transformen en el sol ardiente del mañana!.', '../assets/5 estrellas/fainon.webp', '../assets/5 estrellas/conos/cono fainon.webp')">
                     <img src="../assets/5 estrellas/fainon.webp" alt="Fainón" class="card-img-top">
                     <div class="card-body">
                         <h5 class="card-title cinco-estrellas">Fainón</h5>
@@ -604,7 +606,7 @@
             </div>
 
             <div class="col-md-2">
-                <div class="card card-hyacine" onclick="abrirPopup5('Hyacine', '../assets/viento.webp', '../assets/reminiscencia.webp', 'La polis entre las nubes se desvanece con el paso del tiempo, y el Patio Claroscuro abre nuevamente sus puertas para traer un destello de luz a la noche eterna.', 'Sanadora Hyacinta, Heredera de Crisos que custodia la Yesca del Cielo, deberás heredar la voluntad de tus ancestros y zurcir el tejido roto del crepúsculo. Que la luz del arcoíris caiga, que el rencor se disuelva, y que el amanecer regrese a la tierra.', '../assets/5 estrellas/hyacine.webp', '../assets/5 estrellas/conos/cono hyacine.webp')">
+                <div class="card card-hyacine" onclick="abrirPopup5('Hyacine', '../assets/viasElementos/viento.webp', '../assets/viasElementos/reminiscencia.webp', 'La polis entre las nubes se desvanece con el paso del tiempo, y el Patio Claroscuro abre nuevamente sus puertas para traer un destello de luz a la noche eterna.', 'Sanadora Hyacinta, Heredera de Crisos que custodia la Yesca del Cielo, deberás heredar la voluntad de tus ancestros y zurcir el tejido roto del crepúsculo. Que la luz del arcoíris caiga, que el rencor se disuelva, y que el amanecer regrese a la tierra.', '../assets/5 estrellas/hyacine.webp', '../assets/5 estrellas/conos/cono hyacine.webp')">
                     <img src="../assets/5 estrellas/hyacine.webp" alt="Hyacine" class="card-img-top">
                     <div class="card-body">
                         <h5 class="card-title cinco-estrellas">Hyacine</h5>
@@ -613,7 +615,7 @@
             </div>
 
             <div class="col-md-2">
-                <div class="card card-hysilens" onclick="abrirPopup5('Hysilens', '../assets/fisico.webp', '../assets/nihilidad.webp', 'Estisia, la polis costera de la embriaguez y los sueños, donde los ecos de antiguas canciones aún danzan entre las olas.', 'Hysirenia, hija del mar, Heredera de Crisos que purifica la Yesca del Océano, disipa las corrientes turbias y orquesta un festín espléndido para los héroes de más allá del cielo. Aunque la esperanza sea frágil como la espuma, las olas seguirán avanzando sin cesar mientras el festín no termine.', '../assets/5 estrellas/hysilens.webp', '../assets/5 estrellas/conos/cono hysilens.webp')">
+                <div class="card card-hysilens" onclick="abrirPopup5('Hysilens', '../assets/viasElementos/fisico.webp', '../assets/viasElementos/nihilidad.webp', 'Estisia, la polis costera de la embriaguez y los sueños, donde los ecos de antiguas canciones aún danzan entre las olas.', 'Hysirenia, hija del mar, Heredera de Crisos que purifica la Yesca del Océano, disipa las corrientes turbias y orquesta un festín espléndido para los héroes de más allá del cielo. Aunque la esperanza sea frágil como la espuma, las olas seguirán avanzando sin cesar mientras el festín no termine.', '../assets/5 estrellas/hysilens.webp', '../assets/5 estrellas/conos/cono hysilens.webp')">
                     <img src="../assets/5 estrellas/hysilens.webp" alt="Hysiliens" class="card-img-top">
                     <div class="card-body">
                         <h5 class="card-title cinco-estrellas">Hysilens</h5>
@@ -625,7 +627,7 @@
         <!-- 11 row -->
         <div class="row">
             <div class="col-md-2">
-                <div class="card card-ceridra" onclick="abrirPopup5('Céridra', '../assets/viento.webp', '../assets/armonia.webp', 'El Imperio del Norte, una dinastía perdida, tierras gélidas que arden con ambiciones de conquista.', 'Monarca Céridra, Heredera de Crisos que empuña la Yesca de la Ley, deberás preparar tus piezas en el tablero para desafiar a los dioses. Juzgarás a los prisioneros desleales y establecerás en este mundo los cimientos buscallamas. ¡Este no es el final, el camino de Amphoreus se extiende hasta las estrellas del cosmos!.', '../assets/5 estrellas/ceridra.webp', '../assets/5 estrellas/conos/cono ceridra.webp')">
+                <div class="card card-ceridra" onclick="abrirPopup5('Céridra', '../assets/viasElementos/viento.webp', '../assets/viasElementos/armonia.webp', 'El Imperio del Norte, una dinastía perdida, tierras gélidas que arden con ambiciones de conquista.', 'Monarca Céridra, Heredera de Crisos que empuña la Yesca de la Ley, deberás preparar tus piezas en el tablero para desafiar a los dioses. Juzgarás a los prisioneros desleales y establecerás en este mundo los cimientos buscallamas. ¡Este no es el final, el camino de Amphoreus se extiende hasta las estrellas del cosmos!.', '../assets/5 estrellas/ceridra.webp', '../assets/5 estrellas/conos/cono ceridra.webp')">
                     <img src="../assets/5 estrellas/ceridra.webp" alt="Céridra" class="card-img-top">
                     <div class="card-body">
                         <h5 class="card-title cinco-estrellas">Céridra</h5>
@@ -634,7 +636,7 @@
             </div>
 
             <div class="col-md-2">
-                <div class="card card-larganoche" onclick="abrirPopup5('Larganoche', '../assets/hielo.webp', '../assets/reminiscencia.webp', 'En la Zona de los Recuerdos aislada del mundo, las velas reflejan el pasado y se extinguen silenciosamente en la niebla.', 'Larganoche, la hija de la Reminiscencia venida de aquellas sombras, la Heredera de Crisos que oculta la Yesca del Tiempo, desata las olas del Olvido para proteger los deseos de quien se refleja en el espejo. No te preocupes, vigilaré por ti la senda trazacaminos... Cueste lo que cueste.', '../assets/5 estrellas/larganoche.webp', '../assets/5 estrellas/conos/cono larganoche.webp')">
+                <div class="card card-larganoche" onclick="abrirPopup5('Larganoche', '../assets/viasElementos/hielo.webp', '../assets/viasElementos/reminiscencia.webp', 'En la Zona de los Recuerdos aislada del mundo, las velas reflejan el pasado y se extinguen silenciosamente en la niebla.', 'Larganoche, la hija de la Reminiscencia venida de aquellas sombras, la Heredera de Crisos que oculta la Yesca del Tiempo, desata las olas del Olvido para proteger los deseos de quien se refleja en el espejo. No te preocupes, vigilaré por ti la senda trazacaminos... Cueste lo que cueste.', '../assets/5 estrellas/larganoche.webp', '../assets/5 estrellas/conos/cono larganoche.webp')">
                     <img src="../assets/5 estrellas/larganoche.webp" alt="Larganoche" class="card-img-top">
                     <div class="card-body">
                         <h5 class="card-title cinco-estrellas">Larganoche</h5>
@@ -643,7 +645,7 @@
             </div>
 
             <div class="col-md-2">
-                <div class="card card-danhengPT" onclick="abrirPopup5('Dan Heng - Permansor Terrae', '../assets/fisico.webp', '../assets/conservacion.webp', 'El pecho de Georios, el cuerpo del dragón caído, sostiene la tierra fragmentada y soporta mil años de dolor.', 'Dan Heng, el Anónimo y Heredero de Crisos que protege la Yesca de la Tierra. Sostiene el mundo que está cayendo y guía a los seres vivos de este mundo hacia un nuevo hogar más allá. Los ríos fluyen hacia el mar, las montañas resuenan al unísono, y el camino eterno se extiende hacia el infinito.', '../assets/5 estrellas/dan heng PT.webp', '../assets/5 estrellas/conos/cono dan heng PT.png')">
+                <div class="card card-danhengPT" onclick="abrirPopup5('Dan Heng - Permansor Terrae', '../assets/viasElementos/fisico.webp', '../assets/viasElementos/conservacion.webp', 'El pecho de Georios, el cuerpo del dragón caído, sostiene la tierra fragmentada y soporta mil años de dolor.', 'Dan Heng, el Anónimo y Heredero de Crisos que protege la Yesca de la Tierra. Sostiene el mundo que está cayendo y guía a los seres vivos de este mundo hacia un nuevo hogar más allá. Los ríos fluyen hacia el mar, las montañas resuenan al unísono, y el camino eterno se extiende hacia el infinito.', '../assets/5 estrellas/dan heng PT.webp', '../assets/5 estrellas/conos/cono dan heng PT.png')">
                     <img src="../assets/5 estrellas/dan heng PT.webp" alt="Dan Heng - PT" class="card-img-top">
                     <div class="card-body">
                         <h5 class="card-title cinco-estrellas">Dan Heng - Permansor Terrae</h5>
@@ -652,7 +654,7 @@
             </div>
 
             <div class="col-md-2">
-                <div class="card card-cirene" onclick="abrirPopup5('Cirene', '../assets/hielo.webp', '../assets/reminiscencia.webp', '¿Es esta una reunión ordenada por el destino o... una reunión largamente esperada? Está haciendo que mi corazón lata más rápido. Entonces... por favor llámame una vez más Cyrene, como cuando nos conocimos por primera vez, ¿de acuerdo?', 'Hija de Aedes Elysiae, Heredero de Crisos quien nutre ██, siembra la Semilla de la Memoria, para que las flores del pasado florezcan mañana. — Y juntos escribiremos un verso como ningún otro anterior ♪', '../assets/5 estrellas/cirene.webp', '../assets/5 estrellas/conos/cono cirene.png')">
+                <div class="card card-cirene" onclick="abrirPopup5('Cirene', '../assets/viasElementos/hielo.webp', '../assets/viasElementos/reminiscencia.webp', '¿Es esta una reunión ordenada por el destino o... una reunión largamente esperada? Está haciendo que mi corazón lata más rápido. Entonces... por favor llámame una vez más Cyrene, como cuando nos conocimos por primera vez, ¿de acuerdo?', 'Hija de Aedes Elysiae, Heredero de Crisos quien nutre ██, siembra la Semilla de la Memoria, para que las flores del pasado florezcan mañana. — Y juntos escribiremos un verso como ningún otro anterior ♪', '../assets/5 estrellas/cirene.webp', '../assets/5 estrellas/conos/cono cirene.png')">
                     <img src="../assets/5 estrellas/cirene.webp" alt="Cirene" class="card-img-top">
                     <div class="card-body">
                         <h5 class="card-title cinco-estrellas">Cirene</h5>
@@ -662,6 +664,42 @@
 
             <div class="col-md-2"></div>
         </div>
+    </div>
+
+    <div class="container-fluid text-center">
+        <footer class="font introduccion footer">
+            <div class="row font">
+                <p>Claudia Peña 2ºC Ingeniería Informática</p>
+            </div>
+            
+            <div class="row">
+                <div class="col">
+                    <a href="https://hsr.hoyoverse.com/es-es/home" target="_blank">Página Oficial</a>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col">
+                    <a href="https://www.instagram.com/honkaistarrail/" target="_blank">Instagram</a>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col">
+                    <a href="https://play.google.com/store/apps/details?id=com.HoYoverse.hkrpgoversea&pid=OPT_official+site&c=android_download&is_retargeting=true&af_reengagement_window=lifetime&pli=1" target="_blank">
+                        <img src="..\assets\iconos\play store.png" class="icono" alt="Google Play">
+                    </a>
+                    
+                    <a href="https://apps.apple.com/us/app/honkai-star-rail/id1599719154" target="_blank">
+                        <img src="..\assets\iconos\app store.png" class="icono" alt="App Store">
+                    </a>
+                </div>
+            </div>
+
+            <div class="row">
+                <img src="..\assets\iconos\pompom footer.webp" class="pompom" alt="Pom-Pom">
+            </div>
+        </footer>
     </div>
 
     <div id="popup" class="modal">

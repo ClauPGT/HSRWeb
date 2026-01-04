@@ -1,0 +1,22 @@
+.footer {
+    background-color: #2a2a3b !important;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    width: 100vw;
+    margin-left: calc(-50vw + 50%);
+    margin-right: 0;
+    padding: 20px 0;
+    justify-items: center;
+}
+
+.footer a {
+    outline: none !important;
+    border: none !important;
+    text-decoration: none !important;
+    box-shadow: none !important;
+}
+
+.footer a:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}

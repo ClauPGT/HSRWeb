@@ -1,11 +1,16 @@
 <!doctype html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Honkai Star Rail</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <link rel="stylesheet" href="..\css\navbar.css">
+    <link rel="stylesheet" href="..\css\footer.css">
+    <link rel="stylesheet" href="..\css\fotos.css">
+    <link rel="stylesheet" href="..\css\galeria.css">
+    <link rel="stylesheet" href="..\css\texto.css">
+    <link rel="icon" href="..\assets\iconos\pompom icon.webp" type="image/webp">
     <script src="https://kit.fontawesome.com/382e83d34d.js" crossorigin="anonymous"></script>
   </head>
   <body>
@@ -16,7 +21,7 @@
             </button>
 
             <a class="navbar-brand" href="..\index.html">
-                <img src="..\assets\logo hsr.webp" alt="Logo" width="30" height="30" class="d-inline-block align-text-top rounded-5">
+                <img src="..\assets\iconos\logo hsr.webp" alt="Logo" width="30" height="30" class="d-inline-block align-text-top rounded-5">
                 Honkai Star Rail
             </a>
 
@@ -50,9 +55,352 @@
         </div>
     </nav>
 
-    <div class="container-fluid">
-        <h1>Aquí va la galeria</h1>
+    <div class="container-fluid font galeria-container">
+        <img src="..\assets\fondos\fondo galeria.jpg" class="imagen-ajustable galaxia">
+
+        <!-- Row 1 -->
+        <div class="row">
+            <div class="col-md-3">
+                <div class="card card-galeria" onclick="abrirImagen('..\assets\galeria\imagen1.webp')">
+                    <img src="..\assets\galeria\galeria1.png" alt="Imagen 1" class="card-img-top">
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="card card-galeria" onclick="abrirImagen('..\assets\galeria\imagen2.webp')">
+                    <img src="..\assets\galeria\galeria2.png" alt="Imagen 2" class="card-img-top">
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="card card-galeria" onclick="abrirImagen('..\assets\galeria\imagen3.webp')">
+                    <img src="..\assets\galeria\galeria3.png" alt="Imagen 3" class="card-img-top">
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="card card-galeria" onclick="abrirImagen('..\assets\galeria\imagen3.webp')">
+                    <img src="..\assets\galeria\galeria4.png" alt="Imagen 4" class="card-img-top">
+                </div>
+            </div>
+        </div>
+
+        <!-- Row 2 -->
+        <div class="row">
+            <div class="col-md-3">
+                <div class="card card-galeria" onclick="abrirImagen('..\assets\galeria\imagen1.webp')">
+                    <img src="..\assets\galeria\galeria5.png" alt="Imagen 1" class="card-img-top">
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="card card-galeria" onclick="abrirImagen('..\assets\galeria\imagen2.webp')">
+                    <img src="..\assets\galeria\galeria6.png" alt="Imagen 2" class="card-img-top">
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="card card-galeria" onclick="abrirImagen('..\assets\galeria\imagen3.webp')">
+                    <img src="..\assets\galeria\galeria7.png" alt="Imagen 3" class="card-img-top">
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="card card-galeria" onclick="abrirImagen('..\assets\galeria\imagen3.webp')">
+                    <img src="..\assets\galeria\galeria8.png" alt="Imagen 4" class="card-img-top">
+                </div>
+            </div>
+        </div>
+
+        <!-- Row 3 -->
+        <div class="row">
+            <div class="col-md-3">
+                <div class="card card-galeria" onclick="abrirImagen('..\assets\galeria\imagen1.webp')">
+                    <img src="..\assets\galeria\galeria9.png" alt="Imagen 1" class="card-img-top">
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="card card-galeria" onclick="abrirImagen('..\assets\galeria\imagen2.webp')">
+                    <img src="..\assets\galeria\galeria10.png" alt="Imagen 2" class="card-img-top">
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="card card-galeria" onclick="abrirImagen('..\assets\galeria\imagen3.webp')">
+                    <img src="..\assets\galeria\galeria11.png" alt="Imagen 3" class="card-img-top">
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="card card-galeria" onclick="abrirImagen('..\assets\galeria\imagen3.webp')">
+                    <img src="..\assets\galeria\galeria43.png" alt="Imagen 4" class="card-img-top">
+                </div>
+            </div>
+        </div>
+
+        <!-- Row 4 -->
+        <div class="row">
+            <div class="col-md-3">
+                <div class="card card-galeria" onclick="abrirImagen('..\assets\galeria\imagen1.webp')">
+                    <img src="..\assets\galeria\galeria12.png" alt="Imagen 1" class="card-img-top">
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="card card-galeria" onclick="abrirImagen('..\assets\galeria\imagen2.webp')">
+                    <img src="..\assets\galeria\galeria13.png" alt="Imagen 2" class="card-img-top">
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="card card-galeria" onclick="abrirImagen('..\assets\galeria\imagen3.webp')">
+                    <img src="..\assets\galeria\galeria44.png" alt="Imagen 3" class="card-img-top">
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="card card-galeria" onclick="abrirImagen('..\assets\galeria\imagen3.webp')">
+                    <img src="..\assets\galeria\galeria14.png" alt="Imagen 4" class="card-img-top">
+                </div>
+            </div>
+        </div>
+
+        <!-- Row 5 -->
+        <div class="row">
+            <div class="col-md-3">
+                <div class="card card-galeria" onclick="abrirImagen('..\assets\galeria\imagen1.webp')">
+                    <img src="..\assets\galeria\galeria15.png" alt="Imagen 1" class="card-img-top">
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="card card-galeria" onclick="abrirImagen('..\assets\galeria\imagen2.webp')">
+                    <img src="..\assets\galeria\galeria16.png" alt="Imagen 2" class="card-img-top">
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="card card-galeria" onclick="abrirImagen('..\assets\galeria\imagen2.webp')">
+                    <img src="..\assets\galeria\galeria17.png" alt="Imagen 3" class="card-img-top">
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="card card-galeria" onclick="abrirImagen('..\assets\galeria\imagen3.webp')">
+                    <img src="..\assets\galeria\galeria42.png" alt="Imagen 4" class="card-img-top">
+                </div>
+            </div>
+        </div>
+
+        <!-- Row 6 -->
+        <div class="row">
+            <div class="col-md-3">
+                <div class="card card-galeria" onclick="abrirImagen('..\assets\galeria\imagen3.webp')">
+                    <img src="..\assets\galeria\galeria18.png" alt="Imagen 1" class="card-img-top">
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="card card-galeria" onclick="abrirImagen('..\assets\galeria\imagen1.webp')">
+                    <img src="..\assets\galeria\galeria19.png" alt="Imagen 2" class="card-img-top">
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="card card-galeria" onclick="abrirImagen('..\assets\galeria\imagen2.webp')">
+                    <img src="..\assets\galeria\galeria20.png" alt="Imagen 3" class="card-img-top">
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="card card-galeria" onclick="abrirImagen('..\assets\galeria\imagen3.webp')">
+                    <img src="..\assets\galeria\galeria21.png" alt="Imagen 4" class="card-img-top">
+                </div>
+            </div>
+        </div>
+
+        <!-- Row 7 -->
+        <div class="row">
+            <div class="col-md-3">
+                <div class="card card-galeria" onclick="abrirImagen('..\assets\galeria\imagen3.webp')">
+                    <img src="..\assets\galeria\galeria22.png" alt="Imagen 1" class="card-img-top">
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="card card-galeria" onclick="abrirImagen('..\assets\galeria\imagen1.webp')">
+                    <img src="..\assets\galeria\galeria23.png" alt="Imagen 2" class="card-img-top">
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="card card-galeria" onclick="abrirImagen('..\assets\galeria\imagen2.webp')">
+                    <img src="..\assets\galeria\galeria24.png" alt="Imagen 3" class="card-img-top">
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="card card-galeria" onclick="abrirImagen('..\assets\galeria\imagen3.webp')">
+                    <img src="..\assets\galeria\galeria25.png" alt="Imagen 4" class="card-img-top">
+                </div>
+            </div>
+        </div>
+
+        <!-- Row 8 -->
+        <div class="row">
+            <div class="col-md-3">
+                <div class="card card-galeria" onclick="abrirImagen('..\assets\galeria\imagen3.webp')">
+                    <img src="..\assets\galeria\galeria26.png" alt="Imagen 1" class="card-img-top">
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="card card-galeria" onclick="abrirImagen('..\assets\galeria\imagen1.webp')">
+                    <img src="..\assets\galeria\galeria27.png" alt="Imagen 2" class="card-img-top">
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="card card-galeria" onclick="abrirImagen('..\assets\galeria\imagen2.webp')">
+                    <img src="..\assets\galeria\galeria28.png" alt="Imagen 3" class="card-img-top">
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="card card-galeria" onclick="abrirImagen('..\assets\galeria\imagen3.webp')">
+                    <img src="..\assets\galeria\galeria29.png" alt="Imagen 4" class="card-img-top">
+                </div>
+            </div>
+        </div>
+
+        <!-- Row 9 -->
+        <div class="row">
+            <div class="col-md-3">
+                <div class="card card-galeria" onclick="abrirImagen('..\assets\galeria\imagen3.webp')">
+                    <img src="..\assets\galeria\galeria30.png" alt="Imagen 1" class="card-img-top">
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="card card-galeria" onclick="abrirImagen('..\assets\galeria\imagen1.webp')">
+                    <img src="..\assets\galeria\galeria31.png" alt="Imagen 2" class="card-img-top">
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="card card-galeria" onclick="abrirImagen('..\assets\galeria\imagen2.webp')">
+                    <img src="..\assets\galeria\galeria32.png" alt="Imagen 3" class="card-img-top">
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="card card-galeria" onclick="abrirImagen('..\assets\galeria\imagen3.webp')">
+                    <img src="..\assets\galeria\galeria33.png" alt="Imagen 4" class="card-img-top">
+                </div>
+            </div>
+        </div>
+
+        <!-- Row 10 -->
+        <div class="row">
+            <div class="col-md-3">
+                <div class="card card-galeria" onclick="abrirImagen('..\assets\galeria\imagen3.webp')">
+                    <img src="..\assets\galeria\galeria34.png" alt="Imagen 1" class="card-img-top">
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="card card-galeria" onclick="abrirImagen('..\assets\galeria\imagen1.webp')">
+                    <img src="..\assets\galeria\galeria35.png" alt="Imagen 2" class="card-img-top">
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="card card-galeria" onclick="abrirImagen('..\assets\galeria\imagen2.webp')">
+                    <img src="..\assets\galeria\galeria36.png" alt="Imagen 3" class="card-img-top">
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="card card-galeria" onclick="abrirImagen('..\assets\galeria\imagen3.webp')">
+                    <img src="..\assets\galeria\galeria37.png" alt="Imagen 4" class="card-img-top">
+                </div>
+            </div>
+        </div>
+
+        <!-- Row 11 -->
+        <div class="row">
+            <div class="col-md-3">
+                <div class="card card-galeria" onclick="abrirImagen('..\assets\galeria\imagen3.webp')">
+                    <img src="..\assets\galeria\galeria38.png" alt="Imagen 1" class="card-img-top">
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="card card-galeria" onclick="abrirImagen('..\assets\galeria\imagen1.webp')">
+                    <img src="..\assets\galeria\galeria39.png" alt="Imagen 2" class="card-img-top">
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="card card-galeria" onclick="abrirImagen('..\assets\galeria\imagen2.webp')">
+                    <img src="..\assets\galeria\galeria40.png" alt="Imagen 3" class="card-img-top">
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="card card-galeria" onclick="abrirImagen('..\assets\galeria\imagen3.webp')">
+                    <img src="..\assets\galeria\galeria41.png" alt="Imagen 4" class="card-img-top">
+                </div>
+            </div>
+        </div>
     </div>
+
+    <div class="container-fluid text-center">
+        <footer class="font introduccion footer">
+            <div class="row">
+                <p>Claudia Peña 2ºC Ingeniería Informática</p>
+            </div>
+            
+            <div class="row">
+                <div class="col">
+                    <a href="https://hsr.hoyoverse.com/es-es/home" target="_blank">Página Oficial</a>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col">
+                    <a href="https://www.instagram.com/honkaistarrail/" target="_blank">Instagram</a>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col">
+                    <a href="https://play.google.com/store/apps/details?id=com.HoYoverse.hkrpgoversea&pid=OPT_official+site&c=android_download&is_retargeting=true&af_reengagement_window=lifetime&pli=1" target="_blank">
+                        <img src="..\assets\iconos\play store.png" class="icono" alt="Google Play">
+                    </a>
+                    
+                    <a href="https://apps.apple.com/us/app/honkai-star-rail/id1599719154" target="_blank">
+                        <img src="..\assets\iconos\app store.png" class="icono" alt="App Store">
+                    </a>
+                </div>
+            </div>
+
+            <div class="row">
+                <img src="..\assets\iconos\pompom footer.webp" class="pompom" alt="Pom-Pom">
+            </div>
+        </footer>
+    </div>
+
+    <div id="lightbox" class="lightbox-overlay">
+        <button id="closeLightbox" class="lightbox-close">&times;</button>
+        <button id="prevBtn" class="lightbox-nav lightbox-prev">&#10094;</button>
+        <img id="lightboxImage" src="" alt="Imagen ampliada" class="lightbox-img">
+        <button id="nextBtn" class="lightbox-nav lightbox-next">&#10095;</button>
+        <div id="contador" class="lightbox-contador">1 / 44</div>
+    </div>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <script src="..\javascript\galeria.js"></script>
   </body>
 </html>

@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="..\css\texto.css">
     <link rel="stylesheet" href="..\css\4estrellas.css">
     <link rel="stylesheet" href="..\css\popUp4estrellas.css">
+    <link rel="stylesheet" href="..\css\footer.css">
+    <link rel="icon" href="..\assets\iconos\pompom icon.webp" type="image/webp">
     <script src="https://kit.fontawesome.com/382e83d34d.js" crossorigin="anonymous"></script>
   </head>
   <body>
@@ -20,7 +22,7 @@
             </button>
 
             <a class="navbar-brand" href="..\index.html">
-                <img src="..\assets\logo hsr.webp" alt="Logo" width="30" height="30" class="d-inline-block align-text-top rounded-5">
+                <img src="..\assets\iconos\logo hsr.webp" alt="Logo" width="30" height="30" class="d-inline-block align-text-top rounded-5">
                 Honkai Star Rail
             </a>
 
@@ -64,27 +66,27 @@
             <div class="col-md-6">
                 <div class="filas-explicaciones">
                     <h3 class="introduccion titulos">Vías disponibles</h3>
-                    <img src="..\assets\vias hsr.png" alt="Vias">
+                    <img src="..\assets\viasElementos\vias hsr.png" alt="Vias">
                 </div>
             </div>
             <div class="col-md-6">
                 <div class="filas-explicaciones">
                     <h3 class="introduccion titulos">Elementos disponibles</h3>
-                    <img src="..\assets\elementos hsr.png" alt="Elementos">
+                    <img src="..\assets\viasElementos\elementos hsr.png" alt="Elementos">
                 </div>
             </div>
         </div>
     </div>
 
     <div class="container-fluid font">
-        <img src="\assets\galaxia morada.jpg" class="imagen-ajustable galaxia">
+        <img src="\assets\fondos\galaxia morada.jpg" class="imagen-ajustable galaxia">
         <div class="row">
             <h1 class="titulos font introduccion t-personajes">Personajes ★★★★</h1>
         </div>
         <!-- 1 row -->
         <div class="row">
             <div class="col-md-2">
-                <div class="card card-sietemarzo" onclick="abrirPopup4('Siete de Marzo', '../assets/hielo.webp', '../assets/conservacion.webp', 'Una chica vivaz y excéntrica apasionada por todo lo que interesa a las muchachas de su edad. Por ejemplo, tomar fotos... ', 'Despertó tras pasar una eternidad dando vueltas por el espacio dentro de un bloque de hielo y desconoce todo lo relativo a su identidad y su pasado. Tras un breve periodo de desánimo, adoptó como nombre la fecha en la que renació. Ese día, Siete de Marzo comenzó su nueva vida.', '../assets/4 estrellas/sieteMarzo.webp')">
+                <div class="card card-sietemarzo" onclick="abrirPopup4('Siete de Marzo', '../assets/viasElementos/hielo.webp', '../assets/viasElementos/conservacion.webp', 'Una chica vivaz y excéntrica apasionada por todo lo que interesa a las muchachas de su edad. Por ejemplo, tomar fotos... ', 'Despertó tras pasar una eternidad dando vueltas por el espacio dentro de un bloque de hielo y desconoce todo lo relativo a su identidad y su pasado. Tras un breve periodo de desánimo, adoptó como nombre la fecha en la que renació. Ese día, Siete de Marzo comenzó su nueva vida.', '../assets/4 estrellas/sieteMarzo.webp')">
                     <img src="..\assets\4 estrellas\sieteMarzo.webp" alt="Siete de Marzo" class="card-img-top">
                     <div class="card-body ">
                         <h5 class="card-title cuatro-estrellas">Siete de Marzo</h5>
@@ -93,7 +95,7 @@
             </div>
 
             <div class="col-md-2">
-                <div class="card card-danheng" onclick="abrirPopup4('Dan Heng', '../assets/viento.webp', '../assets/caceria.webp', 'Un joven distante y reservado que blande una lanza llamada Perforanubes. Es el guardia del Expreso durante su larga expedición trazacaminos.', 'Dan Heng no habla mucho de su pasado. De hecho, se unió a la tripulación para escapar de él. Pero ¿podrá el tren alejarlo de su pasado?', '../assets/4 estrellas/danHeng.webp')">
+                <div class="card card-danheng" onclick="abrirPopup4('Dan Heng', '../assets/viasElementos/viento.webp', '../assets/viasElementos/caceria.webp', 'Un joven distante y reservado que blande una lanza llamada Perforanubes. Es el guardia del Expreso durante su larga expedición trazacaminos.', 'Dan Heng no habla mucho de su pasado. De hecho, se unió a la tripulación para escapar de él. Pero ¿podrá el tren alejarlo de su pasado?', '../assets/4 estrellas/danHeng.webp')">
                     <img src="..\assets\4 estrellas\danHeng.webp" alt="Dan Heng" class="card-img-top">
                     <div class="card-body">
                         <h5 class="card-title cuatro-estrellas">Dan Heng</h5>
@@ -102,7 +104,7 @@
             </div>
 
             <div class="col-md-2">
-                <div class="card card-arlan" onclick="abrirPopup4('Arlan', '../assets/rayo.webp', '../assets/destruccion.webp', 'El jefe del Departamento de Seguridad de la Estación Espacial Herta. No es muy hablador. Arlan no entiende de investigaciones científicas, pero está dispuesto a arriesgar su vida para proteger a los investigadores y que puedan completar su trabajo.  Está acostumbrado al dolor y luce sus cicatrices como si fueran medallas.', 'Solo baja la guardia y muestra una sonrisa cuando juega con Peppy.', '../assets/4 estrellas/arlan.webp')">
+                <div class="card card-arlan" onclick="abrirPopup4('Arlan', '../assets/viasElementos/rayo.webp', '../assets/viasElementos/destruccion.webp', 'El jefe del Departamento de Seguridad de la Estación Espacial Herta. No es muy hablador. Arlan no entiende de investigaciones científicas, pero está dispuesto a arriesgar su vida para proteger a los investigadores y que puedan completar su trabajo.  Está acostumbrado al dolor y luce sus cicatrices como si fueran medallas.', 'Solo baja la guardia y muestra una sonrisa cuando juega con Peppy.', '../assets/4 estrellas/arlan.webp')">
                     <img src="..\assets\4 estrellas\arlan.webp" alt="Arlan" class="card-img-top">
                     <div class="card-body">
                         <h5 class="card-title cuatro-estrellas">Arlan</h5>
@@ -111,7 +113,7 @@
             </div>
 
             <div class="col-md-2">
-                <div class="card card-asta" onclick="abrirPopup4('Asta', '../assets/fuego.webp', '../assets/armonia.webp', 'Una joven muy curiosa y energética que también es la investigadora jefa de la Estación Espacial Herta.', 'Asta lo hace todo sin esfuerzo, ya se trate de lidiar con empleados obstinados o de responder a la Sociedad del Conocimiento con educación y firmeza. Después de todo, ¡liderar una Estación Espacial es mucho más fácil que heredar una empresa familiar!', '../assets/4 estrellas/asta.webp')">
+                <div class="card card-asta" onclick="abrirPopup4('Asta', '../assets/viasElementos/fuego.webp', '../assets/viasElementos/armonia.webp', 'Una joven muy curiosa y energética que también es la investigadora jefa de la Estación Espacial Herta.', 'Asta lo hace todo sin esfuerzo, ya se trate de lidiar con empleados obstinados o de responder a la Sociedad del Conocimiento con educación y firmeza. Después de todo, ¡liderar una Estación Espacial es mucho más fácil que heredar una empresa familiar!', '../assets/4 estrellas/asta.webp')">
                     <img src="..\assets\4 estrellas\asta.webp" alt="Asta" class="card-img-top">
                     <div class="card-body">
                         <h5 class="card-title cuatro-estrellas">Asta</h5>
@@ -120,7 +122,7 @@
             </div>
 
             <div class="col-md-2">
-                <div class="card card-herta" onclick="abrirPopup4('Herta', '../assets/hielo.webp', '../assets/erudicion.webp', 'La verdadera dueña de la Estación Espacial Herta.', 'Es la humana con mayor cociente intelectual de todo el Azul y solo se dedica a las cosas que le interesan. Cuando pierde el interés, el proyecto en el que estuviera inmersa cae inmediatamente en el olvido. La Estación Espacial es un buen ejemplo de ello. Normalmente se muestra en forma de marioneta que, según Herta, se parece bastante a ella cuando era niña.', '../assets/4 estrellas/herta.webp')">
+                <div class="card card-herta" onclick="abrirPopup4('Herta', '../assets/viasElementos/hielo.webp', '../assets/viasElementos/erudicion.webp', 'La verdadera dueña de la Estación Espacial Herta.', 'Es la humana con mayor cociente intelectual de todo el Azul y solo se dedica a las cosas que le interesan. Cuando pierde el interés, el proyecto en el que estuviera inmersa cae inmediatamente en el olvido. La Estación Espacial es un buen ejemplo de ello. Normalmente se muestra en forma de marioneta que, según Herta, se parece bastante a ella cuando era niña.', '../assets/4 estrellas/herta.webp')">
                     <img src="..\assets\4 estrellas\herta.webp" alt="Herta" class="card-img-top">
                     <div class="card-body">
                         <h5 class="card-title cuatro-estrellas">Herta</h5>
@@ -132,7 +134,7 @@
         <!-- 2 row -->
         <div class="row">
             <div class="col-md-2">
-                <div class="card card-serval" onclick="abrirPopup4('Serval', '../assets/rayo.webp', '../assets/erudicion.webp', 'La rebelde hija mayor de la familia Landau. Antes era la mejor amiga de Cocolia, y ahora lo que le interesa es la mecánica.', 'En el frío perpetuo de Belobog, Serval abrió un taller llamado Nuncainvierno que a menudo cierra para ofrecer conciertos de rock. Si alguien preguntara si el taller resulta rentable, Serval contestaría: Esto no es más que una afición. A mí me sobra el dinero.', '../assets/4 estrellas/serval.webp')">
+                <div class="card card-serval" onclick="abrirPopup4('Serval', '../assets/viasElementos/rayo.webp', '../assets/viasElementos/erudicion.webp', 'La rebelde hija mayor de la familia Landau. Antes era la mejor amiga de Cocolia, y ahora lo que le interesa es la mecánica.', 'En el frío perpetuo de Belobog, Serval abrió un taller llamado Nuncainvierno que a menudo cierra para ofrecer conciertos de rock. Si alguien preguntara si el taller resulta rentable, Serval contestaría: Esto no es más que una afición. A mí me sobra el dinero.', '../assets/4 estrellas/serval.webp')">
                     <img src="..\assets\4 estrellas\serval.webp" alt="Serval" class="card-img-top">
                     <div class="card-body">
                         <h5 class="card-title cuatro-estrellas">Serval</h5>
@@ -141,7 +143,7 @@
             </div>
 
             <div class="col-md-2">
-                <div class="card card-natasha" onclick="abrirPopup4('Natasha', '../assets/fisico.webp', '../assets/abundancia.webp', 'Una doctora muy meticulosa que siempre luce una curiosa sonrisa.', 'Los recursos médicos escasean en el Bajomundo, y Natasha es una de las pocas doctoras a la que pueden acudir sus habitantes. Incluso la deslenguada Hook se comporta como una niña buena en su presencia.', '../assets/4 estrellas/natasha.webp')">
+                <div class="card card-natasha" onclick="abrirPopup4('Natasha', '../assets/viasElementos/fisico.webp', '../assets/viasElementos/abundancia.webp', 'Una doctora muy meticulosa que siempre luce una curiosa sonrisa.', 'Los recursos médicos escasean en el Bajomundo, y Natasha es una de las pocas doctoras a la que pueden acudir sus habitantes. Incluso la deslenguada Hook se comporta como una niña buena en su presencia.', '../assets/4 estrellas/natasha.webp')">
                     <img src="..\assets\4 estrellas\natasha.webp" alt="Natasha" class="card-img-top">
                     <div class="card-body">
                         <h5 class="card-title cuatro-estrellas">Natasha</h5>
@@ -150,7 +152,7 @@
             </div>
 
             <div class="col-md-2">
-                <div class="card card-pela" onclick="abrirPopup4('Pela', '../assets/hielo.webp', '../assets/nihilidad.webp', 'La meticulosa oficial de inteligencia de la Guardia Crinargenta. Es bastante joven, pero muy inteligente.', 'Pela responde a todas las cuestiones con una certeza calmada, ya estén relacionadas con las maniobras de las tropas, la distribución de los suministros o las condiciones del terreno. En cuanto a la funda de su teléfono... Eso no tiene nada que ver con el trabajo, capitán.', '../assets/4 estrellas/pela.webp')">
+                <div class="card card-pela" onclick="abrirPopup4('Pela', '../assets/viasElementos/hielo.webp', '../assets/viasElementos/nihilidad.webp', 'La meticulosa oficial de inteligencia de la Guardia Crinargenta. Es bastante joven, pero muy inteligente.', 'Pela responde a todas las cuestiones con una certeza calmada, ya estén relacionadas con las maniobras de las tropas, la distribución de los suministros o las condiciones del terreno. En cuanto a la funda de su teléfono... Eso no tiene nada que ver con el trabajo, capitán.', '../assets/4 estrellas/pela.webp')">
                     <img src="..\assets\4 estrellas\pela.webp" alt="Pela" class="card-img-top">
                     <div class="card-body">
                         <h5 class="card-title cuatro-estrellas">Pela</h5>
@@ -159,7 +161,7 @@
             </div>
 
             <div class="col-md-2">
-                <div class="card card-sampo" onclick="abrirPopup4('Sampo', '../assets/viento.webp', '../assets/nihilidad.webp', 'Un hombre de negocios con mucha labia y que siempre estará en cualquier lugar en el que se pueda sacar tajada.', 'La información que posee hace que no quede más remedio que contar con él, pero convertirse en su cliente no siempre es algo bueno. Al fin y al cabo, un cliente puede convertirse en un producto si el precio es el adecuado.', '../assets/4 estrellas/sampo.webp')">
+                <div class="card card-sampo" onclick="abrirPopup4('Sampo', '../assets/viasElementos/viento.webp', '../assets/viasElementos/nihilidad.webp', 'Un hombre de negocios con mucha labia y que siempre estará en cualquier lugar en el que se pueda sacar tajada.', 'La información que posee hace que no quede más remedio que contar con él, pero convertirse en su cliente no siempre es algo bueno. Al fin y al cabo, un cliente puede convertirse en un producto si el precio es el adecuado.', '../assets/4 estrellas/sampo.webp')">
                     <img src="..\assets\4 estrellas\sampo.webp" alt="Sampo" class="card-img-top">
                     <div class="card-body">
                         <h5 class="card-title cuatro-estrellas">Sampo</h5>
@@ -168,7 +170,7 @@
             </div>
 
             <div class="col-md-2">
-                <div class="card card-hook" onclick="abrirPopup4('Hook', '../assets/fuego.webp', '../assets/destruccion.webp', 'La jefa del grupo de aventureros Los Topos. Dice llamarse Gran Hook de la Oscuridad. No le gusta que la llamen niña y piensa que puede encargarse de todo ella sola, sin la ayuda de ningún adulto.', 'Los adultos se aventuran en el Fragmentum, Sampo se aventura a la superficie y los pacientes van con Natasha para curarse las heridas que sufren durante sus aventuras... ¡Guiados por Hook, los niños también pueden vivir sus propias aventuras!', '../assets/4 estrellas/hook.webp')">
+                <div class="card card-hook" onclick="abrirPopup4('Hook', '../assets/viasElementos/fuego.webp', '../assets/viasElementos/destruccion.webp', 'La jefa del grupo de aventureros Los Topos. Dice llamarse Gran Hook de la Oscuridad. No le gusta que la llamen niña y piensa que puede encargarse de todo ella sola, sin la ayuda de ningún adulto.', 'Los adultos se aventuran en el Fragmentum, Sampo se aventura a la superficie y los pacientes van con Natasha para curarse las heridas que sufren durante sus aventuras... ¡Guiados por Hook, los niños también pueden vivir sus propias aventuras!', '../assets/4 estrellas/hook.webp')">
                     <img src="..\assets\4 estrellas\hook.webp" alt="Hook" class="card-img-top">
                     <div class="card-body">
                         <h5 class="card-title cuatro-estrellas">Hook</h5>
@@ -180,7 +182,7 @@
         <!-- 3 row -->
         <div class="row">
             <div class="col-md-2">
-                <div class="card card-lynx" onclick="abrirPopup4('Lynx', '../assets/cuantico.webp', '../assets/abundancia.webp', 'La más joven de la familia Landau, la mejor exploradora de Belobog.', 'Puede parecer indolente, pero en realidad es muy capaz. Muestra una actitud hermética solo para evitar socializar innecesariamente. En cuanto a cómo define la socialización innecesaria: Humm... ¿No son innecesarias todas las interacciones sociales?.', '../assets/4 estrellas/lynx.webp')">
+                <div class="card card-lynx" onclick="abrirPopup4('Lynx', '../assets/viasElementos/cuantico.webp', '../assets/viasElementos/abundancia.webp', 'La más joven de la familia Landau, la mejor exploradora de Belobog.', 'Puede parecer indolente, pero en realidad es muy capaz. Muestra una actitud hermética solo para evitar socializar innecesariamente. En cuanto a cómo define la socialización innecesaria: Humm... ¿No son innecesarias todas las interacciones sociales?.', '../assets/4 estrellas/lynx.webp')">
                     <img src="..\assets\4 estrellas\lynx.webp" alt="Lynx" class="card-img-top">
                     <div class="card-body">
                         <h5 class="card-title cuatro-estrellas">Lynx</h5>
@@ -189,7 +191,7 @@
             </div>
 
             <div class="col-md-2">
-                <div class="card card-luka" onclick="abrirPopup4('Luka', '../assets/fisico.webp', '../assets/nihilidad.webp', 'Un luchador optimista y alegre que tiene un brazo robótico. Es miembro de la llamarada.', 'En el ring y en el campo de batalla, como boxeador y como luchador, Luka utiliza su poder para proteger a la gente del Bajomundo. Él sabe lo que es perder la esperanza, así que está dispuesto a ayudar a los demás a recuperar la suya', '../assets/4 estrellas/luka.webp')">
+                <div class="card card-luka" onclick="abrirPopup4('Luka', '../assets/viasElementos/fisico.webp', '../assets/viasElementos/nihilidad.webp', 'Un luchador optimista y alegre que tiene un brazo robótico. Es miembro de la llamarada.', 'En el ring y en el campo de batalla, como boxeador y como luchador, Luka utiliza su poder para proteger a la gente del Bajomundo. Él sabe lo que es perder la esperanza, así que está dispuesto a ayudar a los demás a recuperar la suya', '../assets/4 estrellas/luka.webp')">
                     <img src="..\assets\4 estrellas\luka.webp" alt="Luka" class="card-img-top">
                     <div class="card-body">
                         <h5 class="card-title cuatro-estrellas">Luka</h5>
@@ -198,7 +200,7 @@
             </div>
 
             <div class="col-md-2">
-                <div class="card card-qingque" onclick="abrirPopup4('Qingque', '../assets/cuantico.webp', '../assets/erudicion.webp', 'Una adivinadora ordinaria de la Comisión de Adivinación que nunca flojea cuando se trata de holgazanear.', 'Aprobó el examen de acceso a la Comisión de Adivinación para complacer a sus padres, pero descubrió que lo que pensaba que era un trabajo relajado, en realidad era muy duro e intenso. Tras varios años de experiencia, Qingque por fin ha perfeccionado sus habilidades. Pero no importa a qué departamento se cambie, sigue siendo la adivina de menor rango. ¿Qué más podría desear en la vida que enterrar la cabeza en libros y jugar antiguos juegos de fichas?.', '../assets/4 estrellas/qingque.webp')">
+                <div class="card card-qingque" onclick="abrirPopup4('Qingque', '../assets/viasElementos/cuantico.webp', '../assets/viasElementos/erudicion.webp', 'Una adivinadora ordinaria de la Comisión de Adivinación que nunca flojea cuando se trata de holgazanear.', 'Aprobó el examen de acceso a la Comisión de Adivinación para complacer a sus padres, pero descubrió que lo que pensaba que era un trabajo relajado, en realidad era muy duro e intenso. Tras varios años de experiencia, Qingque por fin ha perfeccionado sus habilidades. Pero no importa a qué departamento se cambie, sigue siendo la adivina de menor rango. ¿Qué más podría desear en la vida que enterrar la cabeza en libros y jugar antiguos juegos de fichas?.', '../assets/4 estrellas/qingque.webp')">
                     <img src="..\assets\4 estrellas\qingque.webp" alt="Qingque" class="card-img-top">
                     <div class="card-body">
                         <h5 class="card-title cuatro-estrellas">Qingque</h5>
@@ -207,7 +209,7 @@
             </div>
 
             <div class="col-md-2">
-                <div class="card card-tingyun" onclick="abrirPopup4('Tingyun', '../assets/rayo.webp', '../assets/armonia.webp', 'Tingyun es una raposiana elocuente y ostenta el cargo de aeroembajadora de Llamas Silbantes, el gremio de comerciantes de la Comisión del Transporte Celeste. Su facilidad de palabra hace que su público espere ansiosamente más historias cautivadoras.', 'Gracias a su supervisión, las ferias comerciales de Xianzhou se volvieron conocidas en toda la galaxia. Intentar evitar el conflicto siempre que sea posible, y persuadir a los que pueden ser persuadidos, ese es el lema de Tingyun.', '../assets/4 estrellas/tingyun.webp')">
+                <div class="card card-tingyun" onclick="abrirPopup4('Tingyun', '../assets/viasElementos/rayo.webp', '../assets/viasElementos/armonia.webp', 'Tingyun es una raposiana elocuente y ostenta el cargo de aeroembajadora de Llamas Silbantes, el gremio de comerciantes de la Comisión del Transporte Celeste. Su facilidad de palabra hace que su público espere ansiosamente más historias cautivadoras.', 'Gracias a su supervisión, las ferias comerciales de Xianzhou se volvieron conocidas en toda la galaxia. Intentar evitar el conflicto siempre que sea posible, y persuadir a los que pueden ser persuadidos, ese es el lema de Tingyun.', '../assets/4 estrellas/tingyun.webp')">
                     <img src="..\assets\4 estrellas\tingyun.webp" alt="Tingyun" class="card-img-top">
                     <div class="card-body">
                         <h5 class="card-title cuatro-estrellas">Tingyun</h5>
@@ -216,7 +218,7 @@
             </div>
 
             <div class="col-md-2">
-                <div class="card card-sushang" onclick="abrirPopup4('Sushang', '../assets/fisico.webp', '../assets/caceria.webp', 'Una ingenua y entusiasta novata de los Nimbocaballeros que empuña una pesada espada. Anhela las leyendas históricas de los Nimbocaballeros y está ansiosa por convertirse ella misma en una figura similar.', 'Por ello, Sushang sigue firmemente las filosofías de ayudar a los necesitados, hacer una buena acción al día y reflexionar sobre una misma tres veces al día, lo que la lleva a tener unos días muy ocupados asistiendo a los demás.', '../assets/4 estrellas/sushang.webp')">
+                <div class="card card-sushang" onclick="abrirPopup4('Sushang', '../assets/viasElementos/fisico.webp', '../assets/viasElementos/caceria.webp', 'Una ingenua y entusiasta novata de los Nimbocaballeros que empuña una pesada espada. Anhela las leyendas históricas de los Nimbocaballeros y está ansiosa por convertirse ella misma en una figura similar.', 'Por ello, Sushang sigue firmemente las filosofías de ayudar a los necesitados, hacer una buena acción al día y reflexionar sobre una misma tres veces al día, lo que la lleva a tener unos días muy ocupados asistiendo a los demás.', '../assets/4 estrellas/sushang.webp')">
                     <img src="..\assets\4 estrellas\sushang.webp" alt="Sushang" class="card-img-top">
                     <div class="card-body">
                         <h5 class="card-title cuatro-estrellas">Sushang</h5>
@@ -228,7 +230,7 @@
         <!-- 4 row -->
         <div class="row">
             <div class="col-md-2">
-                <div class="card card-yukong" onclick="abrirPopup4('Yukong', '../assets/imaginario.webp', '../assets/armonia.webp', 'La jefa de la Comisión del Transporte Celeste del Luofu de Xianzhou, aunque experimentada y autoritaria, es amable.', 'Como piloto veterana desde una temprana edad, se convirtió en la líder de la Comisión gracias a sus extraordinarios logros, aunque ya no vuela debido a una batalla que fue especialmente despiadada. Su brillo se ha desvanecido ahora que ha pasado a centrarse en tareas de gestión, pero siempre está guiando la trayectoria del Luofu.', '../assets/4 estrellas/yukong.webp')">
+                <div class="card card-yukong" onclick="abrirPopup4('Yukong', '../assets/viasElementos/imaginario.webp', '../assets/viasElementos/armonia.webp', 'La jefa de la Comisión del Transporte Celeste del Luofu de Xianzhou, aunque experimentada y autoritaria, es amable.', 'Como piloto veterana desde una temprana edad, se convirtió en la líder de la Comisión gracias a sus extraordinarios logros, aunque ya no vuela debido a una batalla que fue especialmente despiadada. Su brillo se ha desvanecido ahora que ha pasado a centrarse en tareas de gestión, pero siempre está guiando la trayectoria del Luofu.', '../assets/4 estrellas/yukong.webp')">
                     <img src="..\assets\4 estrellas\yukong.webp" alt="Yukong" class="card-img-top">
                     <div class="card-body">
                         <h5 class="card-title cuatro-estrellas">Yukong</h5>
@@ -237,7 +239,7 @@
             </div>
 
             <div class="col-md-2">
-                <div class="card card-guinaifen" onclick="abrirPopup4('Guinaifen', '../assets/fuego.webp', '../assets/nihilidad.webp', 'Una foránea que acabó residiendo en Xianzhou por accidente y ahora es una apasionada artista callejera. Aunque su verdadero nombre es Guinevere, Guinaifen es el nombre de Xianzhou que le puso su buena amiga Sushang.', 'Se enfrenta a una nueva vida en el Luofu. Con su adoración por la cultura de Xianzhou como apoyo, Guinaifen aprendió rápidamente habilidades para mantenerse abrigada y alimentada, como comer fideos cabeza abajo, romper losas de piedra sobre el pecho de otros, atrapar balas con las manos desnudas, etc.', '../assets/4 estrellas/guinaifen.webp')">
+                <div class="card card-guinaifen" onclick="abrirPopup4('Guinaifen', '../assets/viasElementos/fuego.webp', '../assets/viasElementos/nihilidad.webp', 'Una foránea que acabó residiendo en Xianzhou por accidente y ahora es una apasionada artista callejera. Aunque su verdadero nombre es Guinevere, Guinaifen es el nombre de Xianzhou que le puso su buena amiga Sushang.', 'Se enfrenta a una nueva vida en el Luofu. Con su adoración por la cultura de Xianzhou como apoyo, Guinaifen aprendió rápidamente habilidades para mantenerse abrigada y alimentada, como comer fideos cabeza abajo, romper losas de piedra sobre el pecho de otros, atrapar balas con las manos desnudas, etc.', '../assets/4 estrellas/guinaifen.webp')">
                     <img src="..\assets\4 estrellas\guinaifen.webp" alt="Guinaifen" class="card-img-top">
                     <div class="card-body">
                         <h5 class="card-title cuatro-estrellas">Guinaifen</h5>
@@ -246,7 +248,7 @@
             </div>
 
             <div class="col-md-2">
-                <div class="card card-xueyi" onclick="abrirPopup4('Xueyi', '../assets/cuantico.webp', '../assets/destruccion.webp', 'Una de los jueces de la Comisión de los Diez Líderes del Luofu de Xianzhou. De las cuatro funciones de un juez (detener, interrogar, encerrar y castigar), Xueyi se encarga de la primera.', 'Armada con una cadena de hierro y un par de dagas místicas, busca incansablemente a los criminales para capturarlos y someterlos. El cuerpo que tenía se ha esfumado, así que toma prestado el cuerpo de una marioneta que puede retornar al mundo de los vivos medio día por cada criminal que atrapa.', '../assets/4 estrellas/xueyi.webp')">
+                <div class="card card-xueyi" onclick="abrirPopup4('Xueyi', '../assets/viasElementos/cuantico.webp', '../assets/viasElementos/destruccion.webp', 'Una de los jueces de la Comisión de los Diez Líderes del Luofu de Xianzhou. De las cuatro funciones de un juez (detener, interrogar, encerrar y castigar), Xueyi se encarga de la primera.', 'Armada con una cadena de hierro y un par de dagas místicas, busca incansablemente a los criminales para capturarlos y someterlos. El cuerpo que tenía se ha esfumado, así que toma prestado el cuerpo de una marioneta que puede retornar al mundo de los vivos medio día por cada criminal que atrapa.', '../assets/4 estrellas/xueyi.webp')">
                     <img src="..\assets\4 estrellas\xueyi.webp" alt="Xueyi" class="card-img-top">
                     <div class="card-body">
                         <h5 class="card-title cuatro-estrellas">Xueyi</h5>
@@ -255,7 +257,7 @@
             </div>
 
             <div class="col-md-2">
-                <div class="card card-hanya" onclick="abrirPopup4('Hanya', '../assets/fisico.webp', '../assets/armonia.webp', 'Es una de las juezas de la Comisión de los Diez Líderes en el Luofu. De las cuatro funciones de un juez (detener, interrogar, encerrar y castigar), Hanya se encarga de interrogar. Está especializada en leer el karma y los pecados de los criminales. Luego, registra sus delitos y castigos con un pincel del oráculo.', 'Tras pasar tanto tiempo usando la oniromancia para predecir delitos kármicos y sufrir el desgaste causado por la ingente cantidad de información de los poseídos por Mara, se ha vuelto insensible a todo lo demás. Solo cuando actúa junto a su compañera jueza y hermana, Xueyi, Hanya revela por un momento su verdadera naturaleza.', '../assets/4 estrellas/hanya.webp')">
+                <div class="card card-hanya" onclick="abrirPopup4('Hanya', '../assets/viasElementos/fisico.webp', '../assets/viasElementos/armonia.webp', 'Es una de las juezas de la Comisión de los Diez Líderes en el Luofu. De las cuatro funciones de un juez (detener, interrogar, encerrar y castigar), Hanya se encarga de interrogar. Está especializada en leer el karma y los pecados de los criminales. Luego, registra sus delitos y castigos con un pincel del oráculo.', 'Tras pasar tanto tiempo usando la oniromancia para predecir delitos kármicos y sufrir el desgaste causado por la ingente cantidad de información de los poseídos por Mara, se ha vuelto insensible a todo lo demás. Solo cuando actúa junto a su compañera jueza y hermana, Xueyi, Hanya revela por un momento su verdadera naturaleza.', '../assets/4 estrellas/hanya.webp')">
                     <img src="..\assets\4 estrellas\hanya.webp" alt="Hanya" class="card-img-top">
                     <div class="card-body">
                         <h5 class="card-title cuatro-estrellas">Hanya</h5>
@@ -264,7 +266,7 @@
             </div>
 
             <div class="col-md-2">
-                <div class="card card-moze" onclick="abrirPopup4('Moze', '../assets/rayo.webp', '../assets/caceria.webp', 'Un guardia en la sombra del Yaoqing de Xianzhou. Es reservado y callado, y siempre actúa solo.', 'Como experto en los servicios de inteligencia y otros asuntos que deben mantenerse ocultos, Moze rara vez se deja ver. Cuando muestra sus verdaderas capacidades, sus enemigos suelen enfrentarse a la muerte. Tiene un amplio conocimiento sobre métodos de asesinato y parece que está increíblemente obsesionado con la pulcritud y la limpieza.', '../assets/4 estrellas/moze.webp')">
+                <div class="card card-moze" onclick="abrirPopup4('Moze', '../assets/viasElementos/rayo.webp', '../assets/viasElementos/caceria.webp', 'Un guardia en la sombra del Yaoqing de Xianzhou. Es reservado y callado, y siempre actúa solo.', 'Como experto en los servicios de inteligencia y otros asuntos que deben mantenerse ocultos, Moze rara vez se deja ver. Cuando muestra sus verdaderas capacidades, sus enemigos suelen enfrentarse a la muerte. Tiene un amplio conocimiento sobre métodos de asesinato y parece que está increíblemente obsesionado con la pulcritud y la limpieza.', '../assets/4 estrellas/moze.webp')">
                     <img src="..\assets\4 estrellas\moze.webp" alt="Moze" class="card-img-top">
                     <div class="card-body">
                         <h5 class="card-title cuatro-estrellas">Moze</h5>
@@ -276,7 +278,7 @@
         <!-- 5 row -->
         <div class="row">
             <div class="col-md-2">
-                <div class="card card-sietemarzocaceria" onclick="abrirPopup4('Siete de Marzo - Cacería', '../assets/imaginario.webp', '../assets/caceria.webp', 'Siete de Marzo con un atuendo de Xianzhou.', 'Una joven artista marcial que empuña dos espadas. Está aprendiendo el manejo de la espada de Yunli y Yanqing, y está ansiosa por crear más recuerdos hermosos en Xianzhou.', '../assets/4 estrellas/siete marzo caceria.webp')">
+                <div class="card card-sietemarzocaceria" onclick="abrirPopup4('Siete de Marzo - Cacería', '../assets/viasElementos/imaginario.webp', '../assets/viasElementos/caceria.webp', 'Siete de Marzo con un atuendo de Xianzhou.', 'Una joven artista marcial que empuña dos espadas. Está aprendiendo el manejo de la espada de Yunli y Yanqing, y está ansiosa por crear más recuerdos hermosos en Xianzhou.', '../assets/4 estrellas/siete marzo caceria.webp')">
                     <img src="..\assets\4 estrellas\siete marzo caceria.webp" alt="Siete de Marzo - Cacería" class="card-img-top">
                     <div class="card-body">
                         <h5 class="card-title cuatro-estrellas">Siete de Marzo - Cacería</h5>
@@ -285,7 +287,7 @@
             </div>
 
             <div class="col-md-2">
-                <div class="card card-gallagher" onclick="abrirPopup4('Gallagher', '../assets/fuego.webp', '../assets/abundancia.webp', 'Un oficial de seguridad de la familia Sabueso en Colonipenal. También es un barman descuidado e indolente.', 'Aunque su vestimenta luzca desordenada y su forma de preparar las bebidas sea relajada, siempre es cortés con los invitados, pero se mantiene alerta. Parece ser un personaje con un pasado complicado, aunque nunca menciona los detalles.', '../assets/4 estrellas/gallagher.webp')">
+                <div class="card card-gallagher" onclick="abrirPopup4('Gallagher', '../assets/viasElementos/fuego.webp', '../assets/viasElementos/abundancia.webp', 'Un oficial de seguridad de la familia Sabueso en Colonipenal. También es un barman descuidado e indolente.', 'Aunque su vestimenta luzca desordenada y su forma de preparar las bebidas sea relajada, siempre es cortés con los invitados, pero se mantiene alerta. Parece ser un personaje con un pasado complicado, aunque nunca menciona los detalles.', '../assets/4 estrellas/gallagher.webp')">
                     <img src="..\assets\4 estrellas\gallagher.webp" alt="Gallagher" class="card-img-top">
                     <div class="card-body">
                         <h5 class="card-title cuatro-estrellas">Gallagher</h5>
@@ -294,7 +296,7 @@
             </div>
 
             <div class="col-md-2">
-                <div class="card card-misha" onclick="abrirPopup4('Misha', '../assets/hielo.webp', '../assets/destruccion.webp', 'Un adorable y atento botones del hotel Fantasía. Quiere convertirse en aventurero intergaláctico, como su abuelo.', 'Es extremadamente trabajador y muy hábil reparando todo tipo de máquinas. También le gusta escuchar los rumores interestelares que le cuentan los huéspedes. Quiere crecer rápido para poder embarcarse en un viaje y recorrer las estrellas.', '../assets/4 estrellas/misha.webp')">
+                <div class="card card-misha" onclick="abrirPopup4('Misha', '../assets/viasElementos/hielo.webp', '../assets/viasElementos/destruccion.webp', 'Un adorable y atento botones del hotel Fantasía. Quiere convertirse en aventurero intergaláctico, como su abuelo.', 'Es extremadamente trabajador y muy hábil reparando todo tipo de máquinas. También le gusta escuchar los rumores interestelares que le cuentan los huéspedes. Quiere crecer rápido para poder embarcarse en un viaje y recorrer las estrellas.', '../assets/4 estrellas/misha.webp')">
                     <img src="..\assets\4 estrellas\misha.webp" alt="Misha" class="card-img-top">
                     <div class="card-body">
                         <h5 class="card-title cuatro-estrellas">Misha</h5>
@@ -324,6 +326,42 @@
                 <img id="splashart" src="" alt="Splashart">
             </div>
         </div>
+    </div>
+
+    <div class="container-fluid text-center">
+        <footer class="font introduccion footer">
+            <div class="row font">
+                <p>Claudia Peña 2ºC Ingeniería Informática</p>
+            </div>
+            
+            <div class="row">
+                <div class="col">
+                    <a href="https://hsr.hoyoverse.com/es-es/home" target="_blank">Página Oficial</a>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col">
+                    <a href="https://www.instagram.com/honkaistarrail/" target="_blank">Instagram</a>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col">
+                    <a href="https://play.google.com/store/apps/details?id=com.HoYoverse.hkrpgoversea&pid=OPT_official+site&c=android_download&is_retargeting=true&af_reengagement_window=lifetime&pli=1" target="_blank">
+                        <img src="..\assets\iconos\play store.png" class="icono" alt="Google Play">
+                    </a>
+                    
+                    <a href="https://apps.apple.com/us/app/honkai-star-rail/id1599719154" target="_blank">
+                        <img src="..\assets\iconos\app store.png" class="icono" alt="App Store">
+                    </a>
+                </div>
+            </div>
+
+            <div class="row">
+                <img src="..\assets\iconos\pompom footer.webp" class="pompom" alt="Pom-Pom">
+            </div>
+        </footer>
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
