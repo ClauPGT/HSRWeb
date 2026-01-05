@@ -100,3 +100,18 @@
   width: 200px;
   padding: 10px;
 }
+
+.foto-autor {
+  border-radius: 50%;
+  height: auto;
+  width: 30vh;
+  padding: 10px;
+  padding-top: 80px;
+}
+
+.foto-formulario1 {
+  height: auto;
+  width: 80vh;
+  padding: 10px;
+  padding-bottom: 110px;
+}

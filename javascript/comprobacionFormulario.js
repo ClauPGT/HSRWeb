@@ -1,69 +1,101 @@
 function validar(e){
   // e.preventDefault(); Método que bloquea el envío del formulario.
+  limpiarErrores();
+  let esValido = true;
+
   if (miform.inputNombre.value == ""){
-    e.preventDefault(); //Solo se valida que no esté vacío
+    e.preventDefault();
+    marcarError(miform.inputNombre, "El nombre es obligatorio");
     miform.inputNombre.focus();
-    alert("El nombre es obligatorio");
-    return false;
+    esValido = false;
   }
 
   if (miform.inputApellidos.value == ""){
-    e.preventDefault(); //Solo se valida que no esté vacío
+    e.preventDefault();
+    marcarError(miform.inputApellidos, "Los apellidos son obligatorios");
     miform.inputApellidos.focus();
-    alert("Los apellidos son obligatorios");
-
-    return false;
+    esValido = false;
   }
 
   if (miform.inputEmail.value == ""){
-    e.preventDefault(); //Solo se valida que no esté vacío
+    e.preventDefault();
+    marcarError(miform.inputEmail, "El email es obligatorio");
     miform.inputEmail.focus();
-    alert("El email es obligatorio");
-    return false;
+    esValido = false;
   }
 
-  if (!miform.inputEmail.value.includes(".com", ".es")){
+  if (!miform.inputEmail.value.includes(".com") && !miform.inputEmail.value.includes(".es")){
     e.preventDefault();
+    marcarError(miform.inputEmail, "Introduzca un email válido");
     miform.inputEmail.focus();
-    alert("Introduzca un email válido");
-    return false;
+    esValido = false;
   }
 
   if (miform.inputTelefono.value == ""){
-    e.preventDefault(); //Solo se valida que no esté vacío
+    e.preventDefault();
+    marcarError(miform.inputTelefono, "El teléfono es obligatorio");
     miform.inputTelefono.focus();
-    alert("El teléfono es obligatorio");
-    return false;
+    esValido = false;
   }
 
   if (miform.inputTelefono.value.length != 9){
     e.preventDefault();
+    marcarError(miform.inputTelefono, "El teléfono debe tener 9 dígitos");
     miform.inputTelefono.focus();
-    alert("El teléfono debe tener 9 dígitos");
-    return false;
+    esValido = false;
   }
 
   if (miform.inputDireccion.value == ""){
-    e.preventDefault(); //Solo se valida que no esté vacío
+    e.preventDefault();
+    marcarError(miform.inputDireccion, "La dirección es obligatoria");
     miform.inputDireccion.focus();
-    alert("La dirección es obligatoria");
-    return false;
+    esValido = false;
   }
 
   if (miform.inputCiudad.value == ""){
-    e.preventDefault(); //Solo se valida que no esté vacío
+    e.preventDefault();
+    marcarError(miform.inputCiudad, "La ciudad es obligatoria");
     miform.inputCiudad.focus();
-    alert("La ciudad es obligatoria");
-    return false;
+    esValido = false;
   }
 
   if (!miform.gridCheck.checked){
-    e.preventDefault(); //Comprueba que esté marcado el checkbox
-    miform.inputCity.focus();
-    alert("Debes aceptar la checkbox");
-    return false;
+    e.preventDefault();
+    marcarError(miform.gridCheck, "Debes aceptar la checkbox");
+    miform.gridCheck.focus();
+    esValido = false;
   }
-  return true;
+
+  return esValido;
+}
+
+function marcarError(elemento, mensaje) {
+  elemento.style.borderColor = 'red';
+  elemento.style.borderWidth = '2px';
+  
+  let errorDiv = elemento.parentElement.querySelector('.error-mensaje');
+  if (!errorDiv) {
+    errorDiv = document.createElement('div');
+    errorDiv.className = 'error-mensaje';
+    errorDiv.style.color = 'red';
+    errorDiv.style.fontSize = '12px';
+    errorDiv.style.marginTop = '5px';
+    elemento.parentElement.appendChild(errorDiv);
+  }
+  errorDiv.textContent = mensaje;
+}
+
+function limpiarErrores() {
+  const form = document.getElementById('miform');
+  const inputs = form.querySelectorAll('input, select, textarea');
+  inputs.forEach(input => {
+    input.style.borderColor = '';
+    input.style.borderWidth = '';
+    const errorDiv = input.parentElement.querySelector('.error-mensaje');
+    if (errorDiv) {
+      errorDiv.remove();
+    }
+  });
 }
 
 function load(){

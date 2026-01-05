@@ -7,3 +7,27 @@
   border-color: #c4819e;
   color: #71304c
 }
+
+.foto-formulario {
+  justify-content: center;
+}
+
+.t-formulario {
+  padding: 35px;
+}
+
+.mapa {
+  padding: 13px;
+}
+
+.formulario {
+  padding: 50px;
+}
+
+.form-floating {
+    margin-bottom: 1rem;
+}
+
+.form-floating > label {
+    padding: 0.5rem 0.75rem;
+}

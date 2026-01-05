@@ -8,10 +8,6 @@
     transform: scale(1.05);
 }
 
-.card-galeria .card-img-top {
-    border-radius: 10px;
-}
-
 /* Lightbox */
 .lightbox-overlay {
     display: none;
