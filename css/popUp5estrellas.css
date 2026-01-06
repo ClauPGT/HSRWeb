@@ -90,12 +90,26 @@
   display: block;
 }
 
+/* Contenedor para splashart y cono de luz */
+.imagenes-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
 /* Responsive para splashart y cono de luz en pop-ups */
 @media (max-width: 768px) {
-    #splashart,
-    #conoDeLuz {
+    #splashart {
         max-width: 80% !important;
         width: 80% !important;
+        height: auto !important;
+    }
+    
+    #conoDeLuz {
+        max-width: 60% !important;
+        width: 60% !important;
         height: auto !important;
     }
     
@@ -110,13 +124,23 @@
         align-items: center;
         gap: 15px;
     }
+    
+    .imagenes-container {
+        flex-direction: column;
+        align-items: center;
+    }
 }
 
 @media (max-width: 576px) {
-    #splashart,
+    #splashart {
+        max-width: 70% !important;
+        width: 70% !important;
+        height: auto !important;
+    }
+    
     #conoDeLuz {
-        max-width: 65% !important;
-        width: 65% !important;
+        max-width: 50% !important;
+        width: 50% !important;
         height: auto !important;
     }
     
@@ -129,10 +153,15 @@
 }
 
 @media (max-width: 400px) {
-    #splashart,
+    #splashart {
+        max-width: 60% !important;
+        width: 60% !important;
+        height: auto !important;
+    }
+    
     #conoDeLuz {
-        max-width: 55% !important;
-        width: 55% !important;
+        max-width: 45% !important;
+        width: 45% !important;
         height: auto !important;
     }
 }
